@@ -14,7 +14,7 @@
   <a href="french.md" title="Français"><img src="https://img.shields.io/badge/🇫🇷 Français-Lire-blue?style=flat-square" alt="Version Française"/></a>
 </p>
 
-> 🏗️ 精选的第三方平台列表，提供 **OpenAI / Claude / DeepSeek** API，供学习、研究和非商业使用。
+
 
 ---
 
