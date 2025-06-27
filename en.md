@@ -13,7 +13,8 @@
 
 
 > 🏗️ A curated list of third-party platforms providing **OpenAI / Claude / DeepSeek** APIs for learning, research, and non-commercial use.
-> our website[Openai / Claude / Deepseek API Provider](https://3529883f-8eb3-439c-995f-24ba8e0fb675-00-4ueqtiupbzf3.spock.replit.dev/#top)
+>
+> our website[Openai / Claude / Deepseek API Provider](https://d706445b-7658-4708-bb08-bac6c5a775ad-00-2z2hsdckl4fie.riker.replit.dev/))
 
 ---
 
