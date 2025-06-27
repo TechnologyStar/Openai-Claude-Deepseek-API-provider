@@ -2,7 +2,7 @@
 
 [![Last Commit](https://img.shields.io/github/last-commit/TechnologyStar/Openai-Claude-Deepseek-API-provider)](https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider)
 [![License](https://img.shields.io/github/license/TechnologyStar/Openai-Claude-Deepseek-API-provider)](https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider/blob/main/LICENSE)
-[![Star History](https://api.star-history.com/svg?repos=TechnologyStar/Openai-Claude-Deepseek-API-provider\&type=Date)](https://star-history.com/#TechnologyStar/Openai-Claude-Deepseek-API-provider&Date)
+
 
 > 🏗️ A curated list of third-party platforms providing **OpenAI / Claude / DeepSeek** APIs for learning, research, and non-commercial use.
 
