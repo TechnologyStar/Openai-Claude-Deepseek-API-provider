@@ -1,4 +1,4 @@
-# 🌐 Openai / Claude / Deepseek API Provider (English Version)
+# 🌐 Openai / Claude / Deepseek API Provider
 
 [![Last Commit](https://img.shields.io/github/last-commit/TechnologyStar/Openai-Claude-Deepseek-API-provider)](https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider)
 [![License](https://img.shields.io/github/license/TechnologyStar/Openai-Claude-Deepseek-API-provider)](https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider/blob/main/LICENSE)
@@ -155,6 +155,15 @@ We welcome:
 * We do not store API keys or provide proxy services.
 * All platforms listed are from the public internet.
 * Use at your own risk. We are not liable for any losses.
+---
+
+## 🙏 Special Thanks
+
+Many thanks to Replit for providing IDE platform support!  
+[Register now and use invite code](https://replit.com/refer/HarmonyOSam)
+
+Many thanks to chat01 for providing API service support!  
+[Visit chat01 and use referral code](https://chat01.ai/?ref=j45ikbTa)
 
 ---
 [![Star History](https://api.star-history.com/svg?repos=TechnologyStar/Openai-Claude-Deepseek-API-provider\&type=Date)](https://star-history.com/#TechnologyStar/Openai-Claude-Deepseek-API-provider&Date)
