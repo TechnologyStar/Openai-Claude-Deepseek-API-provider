@@ -94,18 +94,148 @@
 ---
 
 ## 🌐 第三方 API 提供方列表
+</p>
 
-| #   | 平台名称        | 链接                                                              | 标签        | 说明               |
-| --- | ----------- | --------------------------------------------------------------- | --------- | ---------------- |
-| 1   | Chat01（推荐）  | [chat01.ai](https://chat01.ai/?ref=j45ikbTa)                    | 🔓✌🎁💰✔  | 每天2积分，支持 API 与对话 |
-| 2   | SiliconFlow | [cloud.siliconflow.cn](https://cloud.siliconflow.cn/i/ZKV30bdG) | 🔓🎉🚀🚩✔ | 华为云，支持 DeepSeek  |
-| 3   | VoAPI       | [demo.voapi.top](https://demo.voapi.top)                        | 🆓😆💪✌   | 公益平台，每日清零        |
-| 4   | BurnHair    | [burn.hair](https://burn.hair)                                  | ✌🎉😆🚀   | 支持高并发            |
-| ... | ...         | ...                                                             | ...       | ...              |
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>网站</th>
+      <th>链接</th>
+      <th>标签</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>chat01（推荐）(含邀请码)</td>
+      <td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td>
+      <td>🔓✌🎁💰✔</td>
+      <td>支持pro,解决降智问题，每天免费2积分，聊天+api同站</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>cloud.siliconflow.cn(推荐/企业级)</td>
+      <td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn/models</a></td>
+      <td>🔓💪✌🎉🚀🚩✔</td>
+      <td>华为云昇腾服务，实名送14元，每日最多请求100次</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>VoAPI</td>
+      <td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td>
+      <td>🆓😆💪✌</td>
+      <td>【全公益网站】余额每日清零</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>头顶冒火</td>
+      <td><a href="https://burn.hair" target="_blank">https://burn.hair</a></td>
+      <td>✌🎉😆🚀</td>
+      <td>赠 $0.3，每日签到得额度，支持高并发</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>V3 API（混合版）</td>
+      <td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td>
+      <td>🚀🔓💪🎁🎉✌</td>
+      <td>赠 $0.2，高并发，3折充值，超多模型</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>V3 API（官转版）</td>
+      <td><a href="https://gf.gpt.ge" target="_blank">https://gf.gpt.ge</a></td>
+      <td>🚀🌹🔓💪</td>
+      <td>赠 $0.2，高并发，6折充值</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>openai-hk</td>
+      <td><a href="https://openai-hk.com/" target="_blank">https://openai-hk.com</a></td>
+      <td>🆓🔓🎉✌💪🚀</td>
+      <td>赠1元，超高并发，含GPT3.5公益版</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>ChatGPT API 水龙头</td>
+      <td><a href="https://faucet.openkey.cloud/" target="_blank">https://faucet.openkey.cloud</a></td>
+      <td>🆓</td>
+      <td>免费$1额度，3天有效期</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>公益免费的ChatGPT API</td>
+      <td><a href="https://github.com/popjane/free_chatgpt_api" target="_blank">GitHub</a></td>
+      <td>🆓</td>
+      <td>公益免费</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>GPT-API-free</td>
+      <td><a href="https://github.com/chuyuewei/ChatGPT-API" target="_blank">GitHub</a></td>
+      <td>🆓💪</td>
+      <td>支持 GPT-4，每天3次</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>openkey</td>
+      <td><a href="https://openkey.cloud/" target="_blank">https://openkey.cloud</a></td>
+      <td>🔓💪✌🚀</td>
+      <td>赠$0.2，支持多并发</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>gptgod.online</td>
+      <td><a href="https://gptgod.online/" target="_blank">https://gptgod.online</a></td>
+      <td>💪✌🎁💰🎉😆</td>
+      <td>按次计费，积分额度</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>m3.ckit.gold</td>
+      <td><a href="https://m3.ckit.gold/" target="_blank">https://m3.ckit.gold</a></td>
+      <td>💰💪✌</td>
+      <td>3元/刀，注册送$0.1</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>小兔api</td>
+      <td><a href="https://api.aischat.xy" target="_blank">https://api.aischat.xy</a></td>
+      <td>🆓💪✌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>goapi.gptnb.ai</td>
+      <td><a href="https://goapi.gptnb.ai/" target="_blank">https://goapi.gptnb.ai</a></td>
+      <td>💪✌🎁💰🎉</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>api.aigc369.com</td>
+      <td><a href="https://api.aigc369.com/pricing" target="_blank">https://api.aigc369.com/pricing</a></td>
+      <td>💪✌🎁💰🎉</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>api.mjdjourney.cn</td>
+      <td><a href="https://api.mjdjourney.cn/" target="_blank">https://api.mjdjourney.cn</a></td>
+      <td>💪✌🎁💰🎉</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>api.bltcy.ai</td>
+      <td><a href="https://api.bltcy.ai/" target="_blank">https://api.bltcy.ai</a></td>
+      <td>💪✌🎁💰🎉</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-👉 查看完整列表：[API 提供方总览](#)
-
----
 
 ## 📖 使用指南
 
