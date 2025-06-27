@@ -1,242 +1,152 @@
-# OpenAI/Claude/Deepseek API Provider
-> [!NOTE]
-> This is a non-profit free project. Users must comply with OpenAI's [Terms of Use](https://openai.com/policies/terms-of-use) and **applicable laws and regulations**. Any illegal use is strictly prohibited.
-> 
-> This project's API shall only be used for non-commercial purposes including but not limited to legal learning, research, and scientific testing. Any illegal or non-compliant usage will result in sole responsibility of the user.
+# 🌐 Openai / Claude / Deepseek API Provider (English Version)
 
-🎁 Free GPT-4o/Claude3 API providers with continuous updates.
+[![Last Commit](https://img.shields.io/github/last-commit/TechnologyStar/Openai-Claude-Deepseek-API-provider)](https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider)
+[![License](https://img.shields.io/github/license/TechnologyStar/Openai-Claude-Deepseek-API-provider)](https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider/blob/main/LICENSE)
 
-✔ All listed websites are sourced from the internet. Please refrain from entering any sensitive personal information on these platforms.
 
-🌈 Contributions welcome <If template fails to load, please follow: https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider/tree/main/.github/ISSUE_TEMPLATE>
+> 🏗️ A curated list of third-party platforms providing **OpenAI / Claude / DeepSeek** APIs for learning, research, and non-commercial use.
 
-- [Add API Provider](https://github.com/TechnologyStar/GPT-4o-Claude3-API-free-provider/issues/new?assignees=TechnologyStar&labels=&projects=&template=%E6%B7%BB%E5%8A%A0api%E6%8F%90%E4%BE%9B%E6%96%B9.md&title=%E6%B7%BB%E5%8A%A0api%E6%8F%90%E4%BE%9B%E6%96%B9)
-- [Report Invalid Provider](https://github.com/TechnologyStar/GPT-4o-Claude3-API-free-provider/issues/new?assignees=&labels=&projects=&template=%E5%8F%8D%E9%A6%88%E5%A4%B1%E6%95%88%E6%8F%90%E4%BE%9B%E6%96%B9.md&title=%E5%8F%8D%E9%A6%88%E7%AB%99%E7%82%B9%E5%A4%B1%E6%95%88%E6%8F%90%E4%BE%9B%E6%96%B9)
-- More (todo)
-  
-If you find this project useful, please consider giving it a star 🌟. Your support motivates us to keep improving.
+---
 
-## Project Overview
-1. Aggregates third-party platforms providing ChatGPT API (including free options)
-2. Direct access to APIs for OpenAI, Claude, Baidu and other models without complex registration
-   Note: Sponsor platforms will include referral codes. Proceeds will be used to maintain public API keys.
+## 🚀 Project Overview
 
-3. Format reference: https://github.com/LiLittleCat/awesome-free-chatgpt
+* 📌 A collection of verified third-party API providers (some offer free access)
+* 🔧 No registration / Easy access / Multi-model support (OpenAI, Claude, DeepSeek, etc.)
+* 🔐 Use caution: **Do not enter sensitive personal data** on any platform
 
-## Supported Applications
+> 💡 If you find this helpful, consider giving it a Star! ⭐
 
-> [!NOTE]
-> All GPT applications supporting custom API endpoints
+---
 
-### 1. ChatGPT.Friend Plugin
+## 🎁 Tag Legend
 
-> A utools plugin supporting custom models, quick access, and cross-platform compatibility. Features include AI chat, image generation, voice dialogue, API management, and usage monitoring. Desktop-focused but lacks mobile support.
-> 
-> [**View Plugin**](https://u.tools/plugins/detail/ChatGPT.%E5%A5%BD%E5%8F%8B/)
+| Tag | Meaning                                 |
+| --- | --------------------------------------- |
+| 🌃  | Completely free                         |
+| 🔓  | Free quota available                    |
+| 💰  | Requires payment                        |
+| 💪  | Supports Claude models                  |
+| ✌️  | Supports OpenAI latest models           |
+| 🎉  | Other models supported (e.g., DeepSeek) |
+| 🌎  | May require international access        |
+| 🎁  | Offers bonus credits or discounts       |
+| 🚀  | High concurrency supported              |
+| 😆  | Daily check-in rewards                  |
+| ✅   | Verified for authenticity               |
 
-### 2. Open-source Chatgpt-next-web (ChatGPT-Midjourney)
+---
 
-> [Open-source Chatgpt-next-web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) - Web-based chat interface.
-> 
-> [ChatGPT-Midjourney](https://github.com/Licoy/ChatGPT-Midjourney) - Modified version supporting Midjourney integration.
+## 📱 Compatible Applications
 
-### 3. Lobe-chat
+<details>
+<summary>📦 Click to view compatible apps</summary>
 
-> [Lobe-chat](https://github.com/lobehub/lobe-chat) - Open-source application supporting chat, image generation, and voice interaction.
+### ✅ [Cherry Studio](https://github.com/CherryHQ/cherry-studio)
 
-### 4. BotGem
+> Cross-platform desktop/mobile client with cloud and local AI model integration.
 
-> [BotGem](https://botgem.com/) - Cross-platform chat application (non-open source).
+### ✅ [ChatGPT Friends Plugin (uTools)](https://u.tools/plugins/detail/ChatGPT.%E5%A5%BD%E5%8F%8B/)
 
-### 5. ChatBox
+> Desktop AI chat tool supporting custom roles, multi-model, multi-session.
 
-> [ChatBox](https://github.com/Bin-Huang/chatbox) - Desktop/web app with API configuration support.
+### ✅ [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
 
-### 6. FastGPT
+> Open-source web front-end supporting API key and multi-user use.
 
-> [FastGPT](https://github.com/labring/FastGPT) - Knowledge base-enabled chat application.
+### ✅ [LobeChat](https://github.com/lobehub/lobe-chat)
 
-Notes:
-1. Sponsor platforms include referral codes (proceeds support public API keys)
-2. Tag Legend:
-- 🆓 Fully Free
-- 🔓 Free Tier Available
-- 💰 Requires Payment
-- 💪 Supports Latest Claude Models
-- ✌ Supports Latest OpenAI Models
-- 🎉 Other Models/Features
-- 🌎 Requires International Network
-- 🎁 Significant Discounts (<50%)
-- 🚀 High Concurrency Support
-- 😆 Daily Check-in Rewards
-- ✔ Verified Authenticity
+> Web-based AI chat framework supporting vision, speech, and multi-model interaction.
 
-<table>
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>Website</th>
-            <th>Link</th>
-            <th>Tags</th>
-            <th>Notes</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>cloud.siliconflow.cn (Recommended/Enterprise)</td>
-            <td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn/models</a></td>
-            <td>🔓💪✌🎉🚀✔</td>
-            <td>Huawei Cloud Ascend service. Unverified users limited to 100 daily requests after 2025-02-06. $2 credit offered.</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>VoAPI</td>
-            <td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td>
-            <td>🆓😆💪✌</td>
-            <td>Non-profit platform. Daily balance reset.</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Burning Hair</td>
-            <td><a href="https://burn.hair" target="_blank">https://burn.hair</a></td>
-            <td>✌🌹😆🚀</td>
-            <td>$0.3 sign-up bonus. Daily check-in rewards. Standard pricing.</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>V3 API (Hybrid)</td>
-            <td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td>
-            <td>🚀🔓💪🎁🌹🎉✌</td>
-            <td>$0.2 bonus. 70% discount pricing. Multiple models.</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>V3 API (Official)</td>
-            <td><a href="https://gf.gpt.ge" target="_blank">https://gf.gpt.ge</a></td>
-            <td>🚀🌹🔓💪</td>
-            <td>$0.2 bonus. 40% discount pricing.</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>openai-hk</td>
-            <td><a href="https://openai-hk.com/" target="_blank">https://openai-hk.com</a></td>
-            <td>🆓(GPT3.5)🔓🎉✌💪🚀</td>
-            <td>$0.15 credit. Public GPT-3.5 version available.</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>ChatGPT API Faucet</td>
-            <td><a href="https://faucet.openkey.cloud/" target="_blank">https://faucet.openkey.cloud/</a></td>
-            <td>🆓</td>
-            <td>Free tier ($1 credit/3 days validity)</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Public ChatGPT API</td>
-            <td><a href="https://github.com/popjane/free_chatgpt_api" target="_blank">https://github.com/popjane/free_chatgpt_api</a></td>
-            <td>🆓</td>
-            <td>Community-maintained service</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>GPT-API-free</td>
-            <td><a href="https://github.com/chuyuewei/ChatGPT-API" target="_blank">https://github.com/chuyuewei/ChatGPT-API</a></td>
-            <td>🆓💪(GPT4)</td>
-            <td>GPT-4 support (3 daily requests)</td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>openkey</td>
-            <td><a href="https://openkey.cloud/" target="_blank">https://openkey.cloud/</a></td>
-            <td>🔓💪✌🚀</td>
-            <td>$0.2 credit. High concurrency support.</td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>gptgod.online</td>
-            <td><a href="https://gptgod.online/" target="_blank">https://gptgod.online/</a></td>
-            <td>💪✌🎁💰🎉😆</td>
-            <td>Pay-per-use credit system</td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>m3.ckit.gold</td>
-            <td><a href="https://m3.ckit.gold/" target="_blank">https://m3.ckit.gold/</a></td>
-            <td>💰💪✌</td>
-            <td>$0.1 sign-up bonus. $3/credit pricing.</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>Bunny API</td>
-            <td><a href="https://api.aischat.xy" target="_blank">https://api.aischat.xy</a></td>
-            <td>🆓💪✌</td>
-            <td>Free tier available</td>
-        </tr>
-        <tr>
-            <td>14</td>
-            <td>goapi.gptnb.ai</td>
-            <td><a href="https://goapi.gptnb.ai/">https://goapi.gptnb.ai/</a></td>
-            <td>💪✌🎁💰🎉</td>
-            <td>Multiple model support</td>
-        </tr>
-        <tr>
-            <td>15</td>
-            <td>api.aigc369.com</td>
-            <td><a href="https://api.aigc369.com/pricing">https://api.aigc369.com/pricing</a></td>
-            <td>💪✌🎁💰🎉</td>
-            <td>Flexible pricing plans</td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>api.mjdjourney.cn</td>
-            <td><a href="https://api.mjdjourney.cn/">https://api.mjdjourney.cn/</a></td>
-            <td>💪✌🎁💰🎉</td>
-            <td>Specialized model access</td>
-        </tr>
-        <tr>
-            <td>17</td>
-            <td>api.bltcy.ai</td>
-            <td><a href="https://api.bltcy.ai/">https://api.bltcy.ai/</a></td>
-            <td>💪✌🎁💰🎉</td>
-            <td>High-performance API</td>
-        </tr>
-        <tr>
-            <td>18</td>
-            <td>464888</td>
-            <td><a href="https://api.464888.xyz" target="_blank">https://api.464888.xyz</a></td>
-            <td>🆓😆🎁✌🎉</td>
-            <td>$50 free credit. Supports llama3.1 405b</td>
-        </tr>
-        <tr>
-            <td>19</td>
-            <td>chat01 (Recommended)</td>
-            <td><a href="https://chat01.ai/?ref=j45ikbTa">https://chat01.ai/</a></td>
-            <td>🔓✌🎁💰✔</td>
-            <td>2 daily free credits. Official API integration.</td>
-        </tr>
-    </tbody>
-</table>
+### ✅ [BotGem](https://botgem.com/)
 
-## Usage Guide
-1. Obtain API Key: Register with provider and retrieve from user dashboard
-2. Configure Endpoint: Enter API URL per application requirements
-3. Model Selection: Verify supported models per platform
-4. Usage Monitoring: Implement rate limits in client settings
+> Mobile-first chat assistant with voice and AI friends.
 
-## Contribution Guidelines
+### ✅ [ChatBox](https://github.com/Bin-Huang/chatbox)
+
+> Multi-platform AI chat client with a modern interface.
+
+### ✅ [FastGPT](https://github.com/labring/FastGPT)
+
+> Knowledge base + visual workflow for internal training or customer service.
+
+### ✅ [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
+
+> Privacy-focused local LLM deployment with plugin support.
+
+</details>
+
+---
+
+## 🌐 Third-Party API Providers
+
+(18 platforms in total)
+
+| #  | Platform             | Link                                                            | Tags         | Notes                                    |
+| -- | -------------------- | --------------------------------------------------------------- | ------------ | ---------------------------------------- |
+| 1  | Chat01 (Recommended) | [chat01.ai](https://chat01.ai/?ref=j45ikbTa)                    | 🔓✌️🎁💰✅    | 2 free credits/day, chat + API supported |
+| 2  | SiliconFlow          | [cloud.siliconflow.cn](https://cloud.siliconflow.cn/i/ZKV30bdG) | 🔓🎉🚀✅      | Based on Huawei Cloud, supports DeepSeek |
+| 3  | VoAPI                | [demo.voapi.top](https://demo.voapi.top)                        | 🌃😆💪✌️     | Free daily reset site                    |
+| 4  | BurnHair             | [burn.hair](https://burn.hair)                                  | ✌️🎉😆🚀     | High concurrency support                 |
+| 5  | V3 API (Mixed)       | [api.v3.cm](https://api.v3.cm)                                  | 🚀🔓💪🎁🎉✌️ | Multi-model, bonus, 70% off              |
+| 6  | V3 API (Official)    | [gf.gpt.ge](https://gf.gpt.ge)                                  | 🚀🌹🔓💪     | 60% off, fast access                     |
+| 7  | openai-hk            | [openai-hk.com](https://openai-hk.com/)                         | 🌃🔓🎉✌️💪🚀 | GPT-3.5 community version                |
+| 8  | poixe                | [poixe.com/products/free](https://poixe.com/products/free)      | 🌃           | Free \$1 quota (3-day limit)             |
+| 9  | Free ChatGPT API     | [popjane](https://github.com/popjane/free_chatgpt_api)          | 🌃           | GitHub open source project               |
+| 10 | GPT-API-free         | [chuyuewei](https://github.com/chuyuewei/ChatGPT-API)           | 🌃💪         | Supports GPT-4, 3 calls/day              |
+| 11 | openkey              | [openkey.cloud](https://openkey.cloud)                          | 🔓💪✌️🚀     | \$0.2 bonus, multi-threaded              |
+| 12 | gptgod.online        | [gptgod.online](https://gptgod.online/)                         | 💪✌️🎁💰🎉😆 | Credit system                            |
+| 13 | m3.ckit.gold         | [m3.ckit.gold](https://m3.ckit.gold/)                           | 💰💪✌️       | \$0.1 signup gift                        |
+| 14 | Aischat              | [api.aischat.xy](https://api.aischat.xy)                        | 🌃💪✌️       | -                                        |
+| 15 | gptnb.ai             | [goapi.gptnb.ai](https://goapi.gptnb.ai/)                       | 💪✌️🎁💰🎉   | -                                        |
+| 16 | aigc369              | [api.aigc369.com](https://api.aigc369.com/pricing)              | 💪✌️🎁💰🎉   | -                                        |
+| 17 | mjdjourney           | [api.mjdjourney.cn](https://api.mjdjourney.cn/)                 | 💪✌️🎁💰🎉   | -                                        |
+| 18 | bltcy.ai             | [api.bltcy.ai](https://api.bltcy.ai/)                           | 💪✌️🎁💰🎉   | -                                        |
+
+---
+
+## ❌ Inactive / Offline Platforms
+
+<details>
+<summary>💻 Click to expand</summary>
+
+| # | Name   | Link                                     | Status        |
+| - | ------ | ---------------------------------------- | ------------- |
+| 1 | 464888 | [api.464888.xyz](https://api.464888.xyz) | ❌ Unavailable |
+
+> Found an inactive platform? Submit an issue!
+
+</details>
+
+---
+
+## 📖 How to Use
+
+1. 🔑 Get API Key: Register on the target platform and find it in your dashboard
+2. ⚙️ Set Endpoint: Add API URL into the supported app
+3. 🤖 Choose Model: Pick the model based on platform support
+4. 📊 Monitor Usage: Use in-app limits to track API usage
+
+---
+
+## 🙌 Contribution Guide
+
 We welcome:
-- New API providers (with 3-day stability reports)
-- Usage tutorials (client configuration examples)
-- Verification mechanisms (automated test scripts)
-- Documentation translations
 
-## Legal Notice
-This project does not store API keys or provide proxy services. All resources originate from third parties. Users assume full legal responsibility for API usage.
+* ✨ New API platforms (must be stable ≥ 3 days)
+* 🛠️ Usage tutorials (screenshots, screen recordings)
+* 🧪 Automated scripts (detect dead platforms)
+* 🌍 Translations (English, Japanese, Korean, etc.)
 
-## Statistics
+> PRs and issues are welcome!
 
-![Last Commit](https://img.shields.io/github/last-commit/TechnologyStar/Openai-Claude-Deepseek-API-provider)
-![License](https://img.shields.io/github/license/TechnologyStar/Openai-Claude-Deepseek-API-provider)
+---
 
-[![Star History Chart](https://api.star-history.com/svg?repos=TechnologyStar/Openai-Claude-Deepseek-API-provider&type=Date)](https://star-history.com/#TechnologyStar/Openai-Claude-Deepseek-API-provider&Date)
+## ⚖️ Disclaimer
+
+* We do not store API keys or provide proxy services.
+* All platforms listed are from the public internet.
+* Use at your own risk. We are not liable for any losses.
+
+---
+[![Star History](https://api.star-history.com/svg?repos=TechnologyStar/Openai-Claude-Deepseek-API-provider\&type=Date)](https://star-history.com/#TechnologyStar/Openai-Claude-Deepseek-API-provider&Date)
+Made with ❤️ by [TechnologyStar](https://github.com/TechnologyStar)
