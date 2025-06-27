@@ -30,13 +30,10 @@
 ## 应用支持
 
 > [!NOTE]
-> 所有可以自定义API地址的GPT应用
-
-以下是更新和扩展后的AI聊天工具推荐列表，已将 Cherry Studio 放在首位，并添加了更多实用工具，供您参考：
-
+> 所有可以自定义API地址的GPT应用，以下是部分示例
 ---
 
-### 一、Cherry Studio
+### 一、Cherry Studio（推荐）
 
 > [Cherry Studio](https://github.com/CherryHQ/cherry-studio) 是一款跨平台的多模型AI桌面客户端，支持 Windows、macOS、Linux 以及 iOS 和 Android 移动端。
 >
@@ -88,7 +85,7 @@
 
 ---
 
-### 四、LobeChat
+### 四、LobeChat（网页推荐）
 
 > [LobeChat](https://github.com/lobehub/lobe-chat) 是一个基于 Next.js 框架构建的 AI 会话应用，支持多种功能。
 >
@@ -104,7 +101,7 @@
 
 ---
 
-### 五、BotGem
+### 五、BotGem（安卓推荐）
 
 > [BotGem](https://botgem.com/) 是一款智能聊天助手应用，支持 PC 和移动端。
 >
@@ -161,9 +158,9 @@
 > * 提供插件系统，方便功能扩展。
 > * 界面简洁，易于使用。
 >
-> 适用于对数据隐私有高要求的用户和企业。([爱沙人网][2])
+> 适用于对数据隐私有高要求的用户和企业。
 
-以下是根据“邀请码优先靠前”排序后的推荐表，已经加入说明和保持原格式。并将你提到的「Cherry Studio」也纳入最上方（默认含邀请码）：
+
 
 ---
 
@@ -175,7 +172,7 @@
 > * 💰 需要充值
 > * 💪 支持 Claude 最新模型
 > * ✌ 支持 OpenAI 最新模型
-> * 🎉 支持其他模型或其他功能
+> * 🎉 支持其他模型（如：deepseek）或其他功能
 > * 🌎 需要国际网络
 > * 🎁 充值有较大优惠（<50%）
 > * 🚀 支持高并发
@@ -204,21 +201,6 @@
 本项目不存储任何API Key，不提供任何代理服务，所有资源均来自第三方平台。使用者应自行承担因使用API服务产生的所有法律责任。
 
 
-<p><strong>赞助方平台将加入邀请码，感谢您的支持</strong></p>
-<p><strong>标签含义：</strong><br>
-&emsp;- 🆓 完全免费<br>
-&emsp;- 🔓 有免费额度<br>
-&emsp;- 💰 需要充值<br>
-&emsp;- 💪 支持 Claude 最新模型<br>
-&emsp;- ✌ 支持 OpenAI 最新模型<br>
-&emsp;- 🎉 支持其他模型或其他功能<br>
-&emsp;- 🌎 需要国际网络<br>
-&emsp;- 🎁 充值有较大优惠（&lt;50%）<br>
-&emsp;- 🚀 支持高并发<br>
-&emsp;- 😆 签到领余额<br>
-&emsp;- 🚩 网站通过中国备案<br>
-&emsp;- ✔ 已验证安全性/真实性
-</p>
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -242,8 +224,8 @@
       <td>2</td>
       <td>cloud.siliconflow.cn(推荐/企业级)</td>
       <td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn/models</a></td>
-      <td>🔓💪✌🎉🚀🚩✔</td>
-      <td>华为云昇腾服务，实名送14元，每日最多请求100次</td>
+      <td>🔓🎉🚀🚩✔</td>
+      <td>华为云昇腾服务，注册送14元，支持DeepSeek</td>
     </tr>
     <tr>
       <td>3</td>
@@ -257,7 +239,7 @@
       <td>头顶冒火</td>
       <td><a href="https://burn.hair" target="_blank">https://burn.hair</a></td>
       <td>✌🎉😆🚀</td>
-      <td>赠 $0.3，每日签到得额度，支持高并发</td>
+      <td>赠 $0.3，支持高并发</td>
     </tr>
     <tr>
       <td>5</td>
@@ -282,22 +264,22 @@
     </tr>
     <tr>
       <td>8</td>
-      <td>ChatGPT API 水龙头</td>
-      <td><a href="https://faucet.openkey.cloud/" target="_blank">https://faucet.openkey.cloud</a></td>
+      <td>poixe（原ChatGPT API 水龙头）</td>
+      <td><a href="https://poixe.com/products/free" target="_blank">https://poixe.com/products/free</a></td>
       <td>🆓</td>
       <td>免费$1额度，3天有效期</td>
     </tr>
     <tr>
       <td>9</td>
       <td>公益免费的ChatGPT API</td>
-      <td><a href="https://github.com/popjane/free_chatgpt_api" target="_blank">GitHub</a></td>
+      <td><a href="https://github.com/popjane/free_chatgpt_api" target="_blank">https://github.com/popjane/free_chatgpt_api</a></td>
       <td>🆓</td>
       <td>公益免费</td>
     </tr>
     <tr>
       <td>10</td>
       <td>GPT-API-free</td>
-      <td><a href="https://github.com/chuyuewei/ChatGPT-API" target="_blank">GitHub</a></td>
+      <td><a href="https://github.com/chuyuewei/ChatGPT-API" target="_blank">https://github.com/chuyuewei/ChatGPT-API</a></td>
       <td>🆓💪</td>
       <td>支持 GPT-4，每天3次</td>
     </tr>
@@ -357,15 +339,24 @@
       <td>💪✌🎁💰🎉</td>
       <td></td>
     </tr>
-    <tr>
-      <td>19</td>
-      <td>464888</td>
-      <td><a href="https://api.464888.xyz" target="_blank">https://api.464888.xyz</a></td>
-      <td>🆓😆🎁✌🎉</td>
-      <td>免费50美元额度，支持 llama3.1，支持高并发</td>
-    </tr>
+    
   </tbody>
 </table>
+
+---
+
+<details>
+<summary>⚠️ <strong>已失效API平台列表（点击展开）</strong></summary>
+
+| 序号 | 网站/平台        | 链接                                        | 备注              |
+| :--: | :--------------- | :------------------------------------------ | :---------------- |
+|  1   | 464888           | [https://api.464888.xyz](https://api.464888.xyz) | 已无法访问，疑似永久失效 |
+
+> 请注意：若有其他失效平台，欢迎补充！
+
+</details>
+
+---
 
 ## 统计信息
 
@@ -375,8 +366,3 @@
      
 
 [![Star History Chart](https://api.star-history.com/svg?repos=TechnologyStar/Openai-Claude-Deepseek-API-provider&type=Date)](https://star-history.com/#TechnologyStar/Openai-Claude-Deepseek-API-provider&Date)
-
-
-
-
-
