@@ -23,7 +23,7 @@
 >
 > * 遵守 [OpenAI 使用条款](https://openai.com/policies/terms-of-use)
 > * 遵守 [《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)，**请勿对中国公众提供未经备案的生成式AI服务**。
-> * 官网 [Openai / Claude / Deepseek API Provider](https://3529883f-8eb3-439c-995f-24ba8e0fb675-00-4ueqtiupbzf3.spock.replit.dev/#top)
+> * 官网 [Openai / Claude / Deepseek API Provider](https://d706445b-7658-4708-bb08-bac6c5a775ad-00-2z2hsdckl4fie.riker.replit.dev/)
 
 ---
 
