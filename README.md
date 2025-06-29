@@ -467,7 +467,7 @@
 非常感谢 chat01 提供 API 服务支持！  
 [访问 chat01 并使用邀请码](https://chat01.ai/?ref=j45ikbTa)
 
-
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
 ---
 [![Star History](https://api.star-history.com/svg?repos=TechnologyStar/Openai-Claude-Deepseek-API-provider\&type=Date)](https://star-history.com/#TechnologyStar/Openai-Claude-Deepseek-API-provider&Date)
 Made with ❤️ by [TechnologyStar](https://github.com/TechnologyStar)
