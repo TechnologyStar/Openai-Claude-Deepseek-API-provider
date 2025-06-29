@@ -237,6 +237,118 @@
       <td>💪✌🎁💰🎉</td>
       <td></td>
     </tr>
+    <tr>
+      <td>19</td>
+      <td>4Z API 中转站</td>
+      <td><a href="https://zzzzapi.com/" target="_blank">https://zzzzapi.com</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>华为云昇腾服务，支持GPT-4o、Claude 3.5，新用户赠100元额度，适合企业级高并发场景。</td>
+    </tr>
+<tr>
+      <td>20</td>
+      <td>简易API中转站</td>
+      <td><a href="https://jeniya.top/" target="_blank">https://jeniya.top</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>聚合多模型，国内直连无限制，注册送100元测试额度。</td>
+    </tr>
+<tr>
+      <td>21</td>
+      <td>CloseAI</td>
+      <td><a href="https://closeai-asia.com/" target="_blank">https://closeai-asia.com</a></td>
+      <td>💰✌💪🎉🚀</td>
+      <td>企业级代理，支持GPT-4o、Claude 3.5，提供中文技术支持。</td>
+    </tr>
+<tr>
+      <td>22</td>
+      <td>云鲸AI</td>
+      <td><a href="https://api.atalk-ai.com/" target="_blank">https://api.atalk-ai.com</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>聚合ChatGPT、Claude、文心一言，注册赠5元体验券。</td>
+    </tr>
+<tr>
+      <td>23</td>
+      <td>ModelBridge</td>
+      <td><a href="https://model-bridge.okeeper.com/" target="_blank">https://model-bridge.okeeper.com</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>国内免费代理，兼容OpenAI接口和国产模型（如文心一言）。</td>
+    </tr>
+<tr>
+      <td>24</td>
+      <td>UiUi API</td>
+      <td><a href="https://sg.uiuiapi.com/" target="_blank">https://sg.uiuiapi.com</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>支持Claude 4、Gemini等模型，兼容OpenAI接口格式。</td>
+    </tr>
+<tr>
+      <td>25</td>
+      <td>老张API中转服务</td>
+      <td><a href="https://api.laozhang.ai/" target="_blank">https://api.laozhang.ai</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>支持Claude 3和GPT-4o，新用户赠20元额度，支持支付宝/微信支付。</td>
+    </tr>
+<tr>
+      <td>26</td>
+      <td>海鲸AI聚合平台</td>
+      <td><a href="https://ai.atalk-ai.com/" target="_blank">https://ai.atalk-ai.com</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>国内备案平台，支持多模型统一API接入。</td>
+    </tr>
+<tr>
+      <td>27</td>
+      <td>One API</td>
+      <td><a href="https://one-api.ai/" target="_blank">https://one-api.ai</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>开源接口管理系统，支持多模型分发和私有化部署。</td>
+    </tr>
+<tr>
+      <td>28</td>
+      <td>OpenRouter</td>
+      <td><a href="https://openrouter.ai/" target="_blank">https://openrouter.ai</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>支持293个模型（含OpenAI、Claude、Gemini），提供免费额度。</td>
+    </tr>
+<tr>
+      <td>29</td>
+      <td>Gemini API代理</td>
+      <td><a href="https://gemini-proxy.com/" target="_blank">https://gemini-proxy.com</a></td>
+      <td>🔓✌🎉🚀</td>
+      <td>支持Google Gemini模型，兼容OpenAI接口，提供免费额度。</td>
+    </tr>
+<tr>
+      <td>30</td>
+      <td>DeepSeek API聚合</td>
+      <td><a href="https://deepseek-aggregator.com/" target="_blank">https://deepseek-aggregator.com</a></td>
+      <td>🔓💪🎉🚀</td>
+      <td>聚合DeepSeek系列模型，提供免费测试额度。</td>
+    </tr>
+<tr>
+      <td>31</td>
+      <td>Hugging Face模型代理</td>
+      <td><a href="https://huggingface.co/inference-api/" target="_blank">https://huggingface.co/inference-api</a></td>
+      <td>🔓💪🎉🚀</td>
+      <td>支持开源模型（如Llama 3），提供免费额度和企业级服务。</td>
+    </tr>
+<tr>
+      <td>32</td>
+      <td>AI21 Labs官方代理</td>
+      <td><a href="https://studio.ai21.com/" target="_blank">https://studio.ai21.com</a></td>
+      <td>💰✌💪🎉</td>
+      <td>支持Jurassic-2模型，适合自然语言处理任务。</td>
+    </tr>
+<tr>
+      <td>33</td>
+      <td>Cohere API代理</td>
+      <td><a href="https://cohere.ai/" target="_blank">https://cohere.ai</a></td>
+      <td>💰✌💪🎉</td>
+      <td>支持文本生成和分类模型，提供企业级API。</td>
+    </tr>
+<tr>
+      <td>34</td>
+      <td>AI API聚合平台</td>
+      <td><a href="https://api.ai-aggregator.com/" target="_blank">https://api.ai-aggregator.com</a></td>
+      <td>🔓✌💪🎉🚀</td>
+      <td>聚合多模型，提供统一接口和负载均衡。</td>
+    </tr>
   </tbody>
 </table>
 
