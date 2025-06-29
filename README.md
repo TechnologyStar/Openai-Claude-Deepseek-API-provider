@@ -349,6 +349,69 @@
       <td>🔓✌💪🎉🚀</td>
       <td>聚合多模型，提供统一接口和负载均衡。</td>
     </tr>
+<tr>
+  <td>35</td>
+  <td>AI.LS</td>
+  <td><a href="https://ai.ls/" target="_blank">https://ai.ls</a></td>
+  <td>🆓✌</td>
+  <td>极简接口，GPT-3.5免费匿名使用</td>
+</tr>
+<tr>
+  <td>36</td>
+  <td>简易API</td>
+  <td><a href="https://jeniya.top/" target="_blank">https://jeniya.top</a></td>
+  <td>🔓✌💪🎉🎁</td>
+  <td>注册送¥100额度，支持Claude/GPT-4o多模型</td>
+</tr>
+<tr>
+  <td>37</td>
+  <td>OpenAI120</td>
+  <td><a href="https://openai120.com/" target="_blank">https://openai120.com</a></td>
+  <td>🔓✌🎁</td>
+  <td>新用户送$3额度，单价同官方</td>
+</tr>
+<tr>
+  <td>38</td>
+  <td>DuckAGI</td>
+  <td><a href="https://duckagi.com/" target="_blank">https://duckagi.com</a></td>
+  <td>💰✌🎉🚀</td>
+  <td>多模态支持GPT-4o/Sora，适合AI绘图</td>
+</tr>
+<tr>
+  <td>39</td>
+  <td>Aihubmix</td>
+  <td><a href="https://aihubmix.com/" target="_blank">https://aihubmix.com</a></td>
+  <td>💰🎉</td>
+  <td>国产模型聚合（文心一言/通义千问）</td>
+</tr>
+<tr>
+  <td>40</td>
+  <td>WokaAI</td>
+  <td><a href="https://wokaai.com/" target="_blank">https://wokaai.com</a></td>
+  <td>✌🚩✔</td>
+  <td>上海企业运营，ICP备案双线路</td>
+</tr>
+<tr>
+  <td>41</td>
+  <td>azapi</td>
+  <td><a href="https://azapi.com.cn/" target="_blank">https://azapi.com.cn</a></td>
+  <td>💰🚩✔</td>
+  <td>杭州企业备案，长期使用优惠</td>
+</tr>
+<tr>
+  <td>42</td>
+  <td>ClaudeAPI</td>
+  <td><a href="https://claudeapi.io/" target="_blank">https://claudeapi.io</a></td>
+  <td>💪🚀✔</td>
+  <td>Anthropic官方合作，支持文件解析</td>
+</tr>
+<tr>
+  <td>43</td>
+  <td>Gala API</td>
+  <td><a href="https://galaapi.com/" target="_blank">https://galaapi.com</a></td>
+  <td>🎉🚀✔</td>
+  <td>谷歌Gemini专用高速通道</td>
+</tr>
   </tbody>
 </table>
 
