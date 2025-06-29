@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 聊天工具推荐表生成器</title>
+  <style>
+    /* 全局样式 */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      padding: 20px;
+      color: #333;
+    }
+    h2, h3 {
+      margin-bottom: 12px;
+      color: #444;
+    }
+    /* 卡片容器样式 */
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    .legend p {
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+    /* 输入区域样式 */
+    .input-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .input-row input[type="text"],
+    .input-row input[type="url"],
+    .input-row input[type="password"],
+    .input-row textarea {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 8px;
+      font-size: 14px;
+      background-color: #fafafa;
+      transition: border-color 0.2s;
+    }
+    .input-row input[type="text"] {
+      width: 160px;
+    }
+    .input-row input[type="url"] {
+      width: 200px;
+    }
+    .input-row input[type="password"] {
+      width: 200px;
+    }
+    .input-row textarea {
+      width: 280px;
+      height: 28px;
+      resize: vertical;
+    }
+    .input-row input:focus,
+    .input-row textarea:focus {
+      border-color: #409eff;
+      outline: none;
+      background-color: #fff;
+    }
+    /* 按钮样式 */
+    button {
+      border: none;
+      border-radius: 4px;
+      background-color: #409eff;
+      color: #fff;
+      padding: 8px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #66b1ff;
+    }
+    button:active {
+      background-color: #3a8ee6;
+    }
+    /* 复选框标签样式 */
+    #tagCheckboxes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      max-width: 400px;
+      margin-top: 4px;
+    }
+    #tagCheckboxes label {
+      display: flex;
+      align-items: center;
+      background-color: #eef2f7;
+      border-radius: 4px;
+      padding: 4px 8px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    #tagCheckboxes input[type="checkbox"] {
+      margin-right: 4px;
+      accent-color: #409eff;
+    }
+    #tagCheckboxes label:hover {
+      background-color: #dde6f7;
+    }
+    /* 表格样式 */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      border-bottom: 1px solid #ececec;
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+      color: #555;
+    }
+    th {
+      background-color: #f7f9fc;
+      font-weight: 600;
+    }
+    tbody tr:hover {
+      background-color: #f5f7fa;
+    }
+    .row-buttons button {
+      margin-right: 6px;
+      padding: 4px 8px;
+      font-size: 13px;
+      background-color: #67c23a;
+    }
+    .row-buttons button:hover {
+      background-color: #85ce61;
+    }
+    .row-buttons button:active {
+      background-color: #5daf31;
+    }
+    /* 文本区域样式 */
+    #generatedHtml {
+      width: 100%;
+      height: 300px;
+      font-family: Consolas, "Courier New", monospace;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 10px;
+      resize: vertical;
+      background-color: #fafafa;
+      margin-top: 10px;
+    }
+    /* 辅助按钮样式 */
+    #copyHtmlBtn {
+      margin-left: 10px;
+      background-color: #e6a23c;
+    }
+    #copyHtmlBtn:hover {
+      background-color: #ebb563;
+    }
+    #copyHtmlBtn:active {
+      background-color: #c5802f;
+    }
+    /* 加载状态 */
+    .loading {
+      opacity: 0.6;
+      pointer-events: none;
+    }
+    /* 设置面板 */
+    #settingsPanel {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      width: 400px;
+      z-index: 1000;
+    }
+    #settingsPanel h3 {
+      margin-bottom: 10px;
+    }
+    #settingsOverlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      z-index: 999;
+    }
+    #settingsPanel input {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+    #settingsPanel button {
+      width: 48%;
+      margin-right: 4%;
+    }
+    #settingsPanel button:last-child {
+      margin-right: 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>AI 聊天工具推荐表生成器</h2>
+  <div class="card legend">
+    <p><strong>赞助方平台将加入邀请码，感谢您的支持</strong></p>
+    <p><strong>标签含义：</strong><br>
+    &emsp;- 🆓 完全免费<br>
+    &emsp;- 🔓 有免费额度<br>
+    &emsp;- 💰 需要充值<br>
+    &emsp;- 💪 支持 Claude 最新模型<br>
+    &emsp;- ✌ 支持 OpenAI 最新模型<br>
+    &emsp;- 🎉 支持其他模型或其他功能<br>
+    &emsp;- 🌎 需要国际网络<br>
+    &emsp;- 🎁 充值有较大优惠（<50%）<br>
+    &emsp;- 🚀 支持高并发<br>
+    &emsp;- 😆 签到领余额<br>
+    &emsp;- 🚩 网站通过中国备案<br>
+    &emsp;- ✔ 已验证安全性/真实性</p>
+  </div>
+
+  <!-- 导入原有供应商 HTML -->
+  <div class="card import-section">
+    <h3>📥 导入原有供应商 HTML</h3>
+    <p>请在下方粘贴已有的 <code>&lt;table&gt;</code> 部分（从 <code>&lt;table&gt;</code> 到 <code>&lt;/table&gt;</code>），然后点击“导入供应商”按钮。</p>
+    <textarea id="importHtmlTextarea" placeholder="在此粘贴原有的 <table> ... </table> HTML 代码"></textarea>
+    <button id="importBtn" style="margin-top: 10px;">导入供应商</button>
+  </div>
+
+  <!-- 新增或编辑供应商项 -->
+  <div class="card input-section">
+    <h3>➕ 添加或编辑供应商</h3>
+    <div class="input-row">
+      <input type="text" id="siteName" placeholder="网站名称" disabled />
+      <input type="url" id="siteLink" placeholder="链接 (包含 https://)" />
+      <input type="password" id="apiKeyInput" placeholder="OpenAI API Key (sk-...)" />
+      <button id="autoTagBtn">AI 自动标注</button>
+      <button id="openSettingsBtn">设置</button>
+    </div>
+    <div class="input-row" style="margin-top: 8px;">
+      <div id="tagCheckboxes">
+        <label><input type="checkbox" value="🆓">🆓</label>
+        <label><input type="checkbox" value="🔓">🔓</label>
+        <label><input type="checkbox" value="💰">💰</label>
+        <label><input type="checkbox" value="💪">💪</label>
+        <label><input type="checkbox" value="✌">✌</label>
+        <label><input type="checkbox" value="🎉">🎉</label>
+        <label><input type="checkbox" value="🌎">🌎</label>
+        <label><input type="checkbox" value="🎁">🎁</label>
+        <label><input type="checkbox" value="🚀">🚀</label>
+        <label><input type="checkbox" value="😆">😆</label>
+        <label><input type="checkbox" value="🚩">🚩</label>
+        <label><input type="checkbox" value="✔">✔</label>
+      </div>
+      <textarea id="siteRemark" placeholder="备注"></textarea>
+      <button id="addRowBtn" disabled>添加提供方</button>
+    </div>
+  </div>
+
+  <!-- 编辑表格区 -->
+  <div class="card">
+    <table id="providerTable">
+      <thead>
+        <tr>
+          <th style="width: 60px;">序号</th>
+          <th>网站</th>
+          <th>链接</th>
+          <th>标签</th>
+          <th>备注</th>
+          <th style="width: 120px;">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 动态插入行 -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 生成与复制 HTML -->
+  <button id="generateHtmlBtn">一键生成 HTML</button>
+  <button id="copyHtmlBtn">复制 HTML 到剪贴板</button>
+  <textarea id="generatedHtml" readonly placeholder="生成的 HTML 会显示在这里，可一键复制"></textarea>
+
+  <!-- 设置面板 -->
+  <div id="settingsOverlay"></div>
+  <div id="settingsPanel">
+    <h3>⚙️ API 设置</h3>
+    <label for="apiUrlInput">请求 URL:</label>
+    <input type="text" id="apiUrlInput" value="https://api.openai.com/v1/chat/completions" />
+    <label for="modelInput">模型:</label>
+    <input type="text" id="modelInput" value="gpt-3.5-turbo" />
+    <div style="text-align: right;">
+      <button id="saveSettingsBtn">保存</button>
+      <button id="cancelSettingsBtn">取消</button>
+    </div>
+  </div>
+
+  <script>
+    let apiUrl = 'https://api.openai.com/v1/chat/completions';
+    let modelName = 'gpt-3.5-turbo';
+
+    const providerTableBody = document.querySelector('#providerTable tbody');
+    const siteNameInput = document.getElementById('siteName');
+    const siteLinkInput = document.getElementById('siteLink');
+    const apiKeyInput = document.getElementById('apiKeyInput');
+    const autoTagBtn = document.getElementById('autoTagBtn');
+    const addRowBtn = document.getElementById('addRowBtn');
+    const generateHtmlBtn = document.getElementById('generateHtmlBtn');
+    const copyHtmlBtn = document.getElementById('copyHtmlBtn');
+    const generatedHtmlTextarea = document.getElementById('generatedHtml');
+    const importBtn = document.getElementById('importBtn');
+    const importHtmlTextarea = document.getElementById('importHtmlTextarea');
+    const openSettingsBtn = document.getElementById('openSettingsBtn');
+    const settingsOverlay = document.getElementById('settingsOverlay');
+    const settingsPanel = document.getElementById('settingsPanel');
+    const apiUrlInput = document.getElementById('apiUrlInput');
+    const modelInput = document.getElementById('modelInput');
+    const saveSettingsBtn = document.getElementById('saveSettingsBtn');
+    const cancelSettingsBtn = document.getElementById('cancelSettingsBtn');
+
+    // 更新序号
+    function updateRowNumbers() {
+      const rows = providerTableBody.querySelectorAll('tr');
+      rows.forEach((row, index) => {
+        row.querySelector('.indexCell').innerText = index + 1;
+      });
+    }
+
+    // 创建一行
+    function createRow(name, link, tags, remark) {
+      const tr = document.createElement('tr');
+
+      const indexTd = document.createElement('td');
+      indexTd.className = 'indexCell';
+      indexTd.innerText = providerTableBody.children.length + 1;
+
+      const nameTd = document.createElement('td');
+      nameTd.contentEditable = true;
+      nameTd.innerText = name;
+
+      const linkTd = document.createElement('td');
+      linkTd.contentEditable = true;
+      const a = document.createElement('a');
+      a.href = link;
+      a.innerText = link;
+      a.target = '_blank';
+      linkTd.appendChild(a);
+
+      const tagsTd = document.createElement('td');
+      tagsTd.contentEditable = true;
+      tagsTd.innerText = tags;
+
+      const remarkTd = document.createElement('td');
+      remarkTd.contentEditable = true;
+      remarkTd.innerText = remark;
+
+      const actionTd = document.createElement('td');
+      actionTd.className = 'row-buttons';
+      const upBtn = document.createElement('button');
+      upBtn.innerText = '↑'; upBtn.onclick = () => moveRowUp(tr);
+      const downBtn = document.createElement('button');
+      downBtn.innerText = '↓'; downBtn.onclick = () => moveRowDown(tr);
+      const deleteBtn = document.createElement('button');
+      deleteBtn.innerText = '删除'; deleteBtn.onclick = () => deleteRow(tr);
+      actionTd.appendChild(upBtn);
+      actionTd.appendChild(downBtn);
+      actionTd.appendChild(deleteBtn);
+
+      tr.appendChild(indexTd);
+      tr.appendChild(nameTd);
+      tr.appendChild(linkTd);
+      tr.appendChild(tagsTd);
+      tr.appendChild(remarkTd);
+      tr.appendChild(actionTd);
+
+      return tr;
+    }
+
+    // 清空输入框
+    function clearInputs() {
+      siteNameInput.value = '';
+      siteLinkInput.value = '';
+      apiKeyInput.value = '';
+      document.getElementById('siteRemark').value = '';
+      document.querySelectorAll('#tagCheckboxes input[type="checkbox"]').forEach(chk => chk.checked = false);
+      addRowBtn.disabled = true;
+      siteNameInput.disabled = true;
+    }
+
+    // 手动添加行
+    function addRow() {
+      const name = siteNameInput.value.trim();
+      const link = siteLinkInput.value.trim();
+      const remark = document.getElementById('siteRemark').value.trim();
+
+      const tagCheckboxes = document.querySelectorAll('#tagCheckboxes input[type="checkbox"]:checked');
+      const selectedTags = Array.from(tagCheckboxes).map(chk => chk.value);
+      const tags = selectedTags.join('');
+
+      if (!name || !link) {
+        alert('请填写“网站名称”和“链接”');
+        return;
+      }
+      const newRow = createRow(name, link, tags, remark);
+      providerTableBody.appendChild(newRow);
+      updateRowNumbers();
+      clearInputs();
+    }
+
+    // AI 自动标注，结果填充到输入框，待人工复核
+    async function autoTagAndFill() {
+      const key = apiKeyInput.value.trim();
+      const link = siteLinkInput.value.trim();
+      if (!key) { alert('请填写 OpenAI API Key。'); return; }
+      if (!link) { alert('请填写“链接”以进行 AI 自动标注。'); return; }
+      autoTagBtn.classList.add('loading');
+      autoTagBtn.innerText = '标注中...';
+
+      const prompt = `请根据以下网站链接，提取网站名称，并生成适合的标签（从以下列表中选择，多个标签请用无空格连续字符形式）：🆓🔓💰💪✌🎉🌎🎁🚀😆🚩✔ 。并生成一句简洁备注，说明该站的主要特点。例如：\n输入链接：${link}\n请输出 JSON 格式：{\"name\": \"网站名称\", \"tags\": \"标签串\", \"remark\": \"备注内容\"}`;
+
+      try {
+        const response = await fetch(apiUrl, {
+          method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+          body: JSON.stringify({ model: modelName, messages: [{ role: 'user', content: prompt }], temperature: 0.7, max_tokens: 500 })
+        });
+        const data = await response.json();
+        const content = data.choices[0].message.content.trim();
+        let obj;
+        try { obj = JSON.parse(content); } catch (e) { const match = content.match(/\{[\s\S]*\}/); obj = match ? JSON.parse(match[0]) : null; }
+        if (!obj || !obj.name) throw new Error('AI 返回格式不符合要求');
+        siteNameInput.value = obj.name;
+        const tagsArr = obj.tags.split('');
+        document.querySelectorAll('#tagCheckboxes input[type="checkbox"]').forEach(chk => chk.checked = tagsArr.includes(chk.value));
+        document.getElementById('siteRemark').value = obj.remark;
+        siteNameInput.disabled = false;
+        addRowBtn.disabled = false;
+      } catch (error) {
+        console.error(error);
+        alert('AI 自动标注出错，请检查 API Key 与网络连接，或稍后重试。');
+      } finally {
+        autoTagBtn.classList.remove('loading');
+        autoTagBtn.innerText = 'AI 自动标注';
+      }
+    }
+
+    // 行上移
+    function moveRowUp(row) {
+      const prev = row.previousElementSibling;
+      if (prev) { providerTableBody.insertBefore(row, prev); updateRowNumbers(); }
+    }
+
+    // 行下移
+    function moveRowDown(row) {
+      const next = row.nextElementSibling;
+      if (next) { providerTableBody.insertBefore(next, row); updateRowNumbers(); }
+    }
+
+    // 删除行
+    function deleteRow(row) {
+      providerTableBody.removeChild(row);
+      updateRowNumbers();
+    }
+
+    // 生成最终 HTML
+    function generateHtml() {
+      let html = '<p><strong>赞助方平台将加入邀请码，感谢您的支持</strong></p>\n';
+      html += '<p><strong>标签含义：</strong><br>\n';
+      html += '&emsp;- 🆓 完全免费<br>\n';
+      html += '&emsp;- 🔓 有免费额度<br>\n';
+      html += '&emsp;- 💰 需要充值<br>\n';
+      html += '&emsp;- 💪 支持 Claude 最新模型<br>\n';
+      html += '&emsp;- ✌ 支持 OpenAI 最新模型<br>\n';
+      html += '&emsp;- 🎉 支持其他模型或其他功能<br>\n';
+      html += '&emsp;- 🌎 需要国际网络<br>\n';
+      html += '&emsp;- 🎁 充值有较大优惠（<50%）<br>\n';
+      html += '&emsp;- 🚀 支持高并发<br>\n';
+      html += '&emsp;- 😆 签到领余额<br>\n';
+      html += '&emsp;- 🚩 网站通过中国备案<br>\n';
+      html += '&emsp;- ✔ 已验证安全性/真实性</p>\n\n';
+
+      html += '<table border=\"1\" cellspacing=\"0\" cellpadding=\"6\">\n';
+      html += '  <thead>\n';
+      html += '    <tr>\n';
+      html += '      <th>序号</th>\n';
+      html += '      <th>网站</th>\n';
+      html += '      <th>链接</th>\n';
+      html += '      <th>标签</th>\n';
+      html += '      <th>备注</th>\n';
+      html += '    </tr>\n';
+      html += '  </thead>\n';
+      html += '  <tbody>\n';
+
+      const rows = providerTableBody.querySelectorAll('tr');
+      rows.forEach((row, index) => {
+        const cols = row.querySelectorAll('td');
+        const name = cols[1].innerText.trim();
+        const link = cols[2].querySelector('a').href.trim();
+        const tags = cols[3].innerText.trim();
+        const remark = cols[4].innerText.trim();
+
+        html += '    <tr>\n';
+        html += `      <td>${index + 1}</td>\n`;
+        html += `      <td>${name}</td>\n`;
+        html += `      <td><a href=\"${link}\" target=\"_blank\">${link}</a></td>\n`;
+        html += `      <td>${tags}</td>\n`;
+        html += `      <td>${remark}</td>\n`;
+        html += '    </tr>\n';
+      });
+
+      html += '  </tbody>\n';
+      html += '</table>';
+
+      generatedHtmlTextarea.value = html;
+    }
+
+    // 复制 HTML 到剪贴板
+    function copyHtmlToClipboard() {
+      generatedHtmlTextarea.select();
+      document.execCommand('copy');
+      alert('HTML 已复制到剪贴板！');
+    }
+
+    // 导入已有的 <table> HTML
+    function importProvidersFromHtml() {
+      const rawHtml = importHtmlTextarea.value.trim();
+      if (!rawHtml) { alert('请先在上方粘贴已有的 <table> ... </table> HTML 代码！'); return; }
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(rawHtml, 'text/html');
+      const rows = doc.querySelectorAll('tbody tr');
+      if (!rows.length) { alert('未能识别到有效的 <tbody><tr> ... 行，请检查粘贴内容格式'); return; }
+
+      providerTableBody.innerHTML = '';
+      rows.forEach(row => {
+        const cols = row.querySelectorAll('td');
+        if (cols.length < 5) return;
+        const name = cols[1].innerText.trim();
+        const linkATag = cols[2].querySelector('a');
+        const link = linkATag ? linkATag.href.trim() : cols[2].innerText.trim();
+        const tags = cols[3].innerText.trim();
+        const remark = cols[4].innerText.trim();
+        const newRow = createRow(name, link, tags, remark);
+        providerTableBody.appendChild(newRow);
+      });
+
+      updateRowNumbers();
+      alert('导入完成！已将行数添加到表格中。');
+      importHtmlTextarea.value = '';
+    }
+
+    // 打开设置面板
+    openSettingsBtn.addEventListener('click', () => {
+      settingsOverlay.style.display = 'block';
+      settingsPanel.style.display = 'block';
+      apiUrlInput.value = apiUrl;
+      modelInput.value = modelName;
+    });
+    // 取消设置
+    cancelSettingsBtn.addEventListener('click', () => {
+      settingsOverlay.style.display = 'none';
+      settingsPanel.style.display = 'none';
+    });
+    // 保存设置
+    saveSettingsBtn.addEventListener('click', () => {
+      apiUrl = apiUrlInput.value.trim() || apiUrl;
+      modelName = modelInput.value.trim() || modelName;
+      settingsOverlay.style.display = 'none';
+      settingsPanel.style.display = 'none';
+      alert(`设置已保存：\n请求 URL：${apiUrl}\n模型：${modelName}`);
+    });
+
+    autoTagBtn.addEventListener('click', autoTagAndFill);
+    addRowBtn.addEventListener('click', addRow);
+    generateHtmlBtn.addEventListener('click', generateHtml);
+    copyHtmlBtn.addEventListener('click', copyHtmlToClipboard);
+    importBtn.addEventListener('click', importProvidersFromHtml);
+  </script>
+</body>
+</html>

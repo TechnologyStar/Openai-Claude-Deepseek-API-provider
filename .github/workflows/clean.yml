@@ -1,0 +1,45 @@
+name: Repository Maintenance
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repo-optimization:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create archive branch
+        run: |
+          git push origin HEAD:archive-$(date +%Y%m%d)
+
+      - name: Repository optimization
+        run: |
+          git checkout --orphan temp-main
+          git add -A
+          git config --global user.name "Repo Maintainer"
+          git config --global user.email "maintainer@noreply.github.com"
+          git commit -m "Repository optimization $(date +'%Y-%m-%d')"
+          
+          echo "File verification:"
+          git ls-files | head -n 10
+          echo "[...truncated...]"
+          
+          git branch -D main
+          git branch -m main
+
+      - name: Apply changes
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push -f origin main
+
+      - name: Verify completion
+        run: |
+          echo "Process completed successfully"
+          echo "Commit count: $(git rev-list --count HEAD)"
+          echo "File count: $(git ls-files | wc -l)"
