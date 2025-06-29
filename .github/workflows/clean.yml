@@ -1,0 +1,49 @@
+name: Clean Repository History
+on:
+  workflow_dispatch:  # 必须手动触发，防止误操作
+
+permissions:
+  contents: write    # 必需权限
+
+jobs:
+  clean-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史
+
+      - name: Create backup branch
+        run: |
+          git push origin HEAD:backup-before-clean-$(date +%Y%m%d)
+          echo "备份分支已创建：backup-before-clean-$(date +%Y%m%d)"
+
+      - name: Reset to new history
+        run: |
+          # 创建无历史分支但保留所有文件
+          git checkout --orphan new-main
+          git add -A
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git commit -m "初始提交（历史清理于 $(date +'%Y-%m-%d %H:%M:%S')"
+          
+          # 验证文件完整性
+          echo "=== 保留的文件清单 ==="
+          git ls-files
+          echo "===================="
+          
+          # 替换主分支
+          git branch -D main
+          git branch -m main
+
+      - name: Force push
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push -f origin main
+
+      - name: Post-cleanup verification
+        run: |
+          echo "操作完成！"
+          echo "当前提交数：$(git rev-list --count HEAD)"
+          echo "当前文件数：$(git ls-files | wc -l)"
