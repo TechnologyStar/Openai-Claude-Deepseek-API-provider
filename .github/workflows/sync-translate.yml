@@ -1,0 +1,27 @@
+name: Auto Sync Docs
+
+on:
+  push:
+    paths:
+      - 'website/server/storage.ts'
+    branches: [ main ]
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install axios
+      - run: node scripts/sync-with-deeplx.js
+        env:
+          DEEPLX_API_KEY: ${{ secrets.DEEPLX_API_KEY }}
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add *.md
+          git commit -m "[Auto] Update translations" || echo "No changes"
+          git push
