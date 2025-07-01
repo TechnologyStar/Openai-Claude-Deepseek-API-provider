@@ -9,8 +9,8 @@
 <p align="center">
   <a href="README.md" title="中文"><img src="https://img.shields.io/badge/🇨🇳 中文-阅读-blue?style=flat-square" alt="中文版"/></a>
   <a href="en.md" title="English"><img src="https://img.shields.io/badge/🇬🇧 English-Read-blue?style=flat-square" alt="English"/></a>
-  <a href="Russian.md" title="Русский"><img src="https://img.shields.io/badge/🇷🇺 Русский-Читать-blue?style=flat-square" alt="Русская версия"/></a>
-  <a href="french.md" title="Français"><img src="https://img.shields.io/badge/🇫🇷 Français-Lire-blue?style=flat-square" alt="Version Française"/></a>
+  <a href="ru.md" title="Русский"><img src="https://img.shields.io/badge/🇷🇺 Русский-Читать-blue?style=flat-square" alt="Русская версия"/></a>
+  <a href="fr.md" title="Français"><img src="https://img.shields.io/badge/🇫🇷 Français-Lire-blue?style=flat-square" alt="Version Française"/></a>
 </p>
 
 > 🏗️ 精选的第三方平台列表，提供 **OpenAI / Claude / DeepSeek** API，供学习、研究和非商业使用。
