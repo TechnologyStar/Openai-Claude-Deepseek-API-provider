@@ -163,8 +163,7 @@
     <tr><td>58</td><td>Groq Cloud</td><td><a href="https://groq.com/groqcloud" target="_blank">https://groq.com/groqcloud</a></td><td>🔓🎉🌎✔</td><td>可申请免费API Key，OpenAI兼容端点，推理速度极快</td></tr>
     <tr><td>59</td><td>Cerebras Inference</td><td><a href="https://inference.cerebras.ai" target="_blank">https://inference.cerebras.ai</a></td><td>🔓🎉🌎🚀✔</td><td>开发者每日享1 M免费tokens，LLM推理可达450 t/s+</td></tr>
     <tr><td>60</td><td>无问芯穹 GenStudio</td><td><a href="https://cloud.infini-ai.com/genstudio" target="_blank">https://cloud.infini-ai.com/genstudio</a></td><td>🆓🎉✔</td><td>DeepSeek R1/V3满血版免费Token，无需邀请码</td></tr>
-    <tr><td>61</td><td>YourAPI (重复)</td><td><a href="https://yourapi.cn" target="_blank">https://yourapi.cn</a></td><td>🔓✌🎁💰✔</td><td>AICNN用户转入赠10%额度，OpenAI兼容接口</td></tr>
-    <tr><td>62</td><td>PoloAPI (重复)</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉🎁💰✔</td><td>新用户注册送0.3 $额度，聚合Claude/Grok/OpenAI等多模型</td></tr>
+    
   </tbody>
 </table>
 
