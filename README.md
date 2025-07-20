@@ -145,24 +145,24 @@
     <tr><td>40</td><td>OpenAI120</td><td><a href="https://openai120.com" target="_blank">https://openai120.com</a></td><td>🔓✌🎁</td><td>新用户送$3额度，单价同官方</td></tr>
     <tr><td>41</td><td>DuckAGI</td><td><a href="https://duckagi.com" target="_blank">https://duckagi.com</a></td><td>💰✌🎉🚀</td><td>多模态支持GPT-4o/Sora，适合AI绘图</td></tr>
     <tr><td>42</td><td>Aihubmix</td><td><a href="https://aihubmix.com" target="_blank">https://aihubmix.com</a></td><td>💰🎉</td><td>国产模型聚合（文心一言/通义千问）</td></tr>
-    <tr><td>43</td><td>WokaAI</td><td><a href="https://wokaai.com" target="_blank">https://wokaai.com</a></td><td>✌🚩✔</td><td>上海企业运营，ICP备案双线路</td></tr>
-    <tr><td>44</td><td>azapi</td><td><a href="https://azapi.com.cn" target="_blank">https://azapi.com.cn</a></td><td>💰🚩✔</td><td>杭州企业备案，长期使用优惠</td></tr>
+    <tr><td>43</td><td>WokaAI</td><td><a href="https://wokaai.com" target="_blank">https://wokaai.com</a></td><td>✌🚩</td><td>上海企业运营，ICP备案双线路</td></tr>
+    <tr><td>44</td><td>azapi</td><td><a href="https://azapi.com.cn" target="_blank">https://azapi.com.cn</a></td><td>💰🚩</td><td>杭州企业备案，长期使用优惠</td></tr>
     <tr><td>45</td><td>ClaudeAPI</td><td><a href="https://claudeapi.io" target="_blank">https://claudeapi.io</a></td><td>💪🚀✔</td><td>Anthropic官方合作，支持文件解析</td></tr>
-    <tr><td>46</td><td>Gala API</td><td><a href="https://galaapi.com" target="_blank">https://galaapi.com</a></td><td>🎉🚀✔</td><td>谷歌Gemini专用高速通道</td></tr>
+    <tr><td>46</td><td>Gala API</td><td><a href="https://galaapi.com" target="_blank">https://galaapi.com</a></td><td>🎉🚀</td><td>谷歌Gemini专用高速通道</td></tr>
     <tr><td>47</td><td>Google AI Studio</td><td><a href="https://ai.google.dev" target="_blank">https://ai.google.dev</a></td><td>🆓🌎✔</td><td>Gemini系列完全免费，需科学上网访问</td></tr>
-    <tr><td>48</td><td>OpenAI 数据共享计划</td><td><a href="https://platform.openai.com" target="_blank">https://platform.openai.com</a></td><td>🔓✌🌎✔</td><td>开启数据共享后每日最高获1 M免费tokens</td></tr>
-    <tr><td>49</td><td>Mistral AI La Plateforme</td><td><a href="https://platform.mistral.ai" target="_blank">https://platform.mistral.ai</a></td><td>🔓🎉🌎✔</td><td>官方平台提供免费API试用额度（受限速率）</td></tr>
-    <tr><td>50</td><td>Cohere</td><td><a href="https://cohere.com" target="_blank">https://cohere.com</a></td><td>🔓🎉🌎✔</td><td>注册可获Trial Key，免费调用但有速率限制</td></tr>
-    <tr><td>51</td><td>魔搭 ModelScope</td><td><a href="https://modelscope.cn" target="_blank">https://modelscope.cn</a></td><td>🔓🎉🚩✔</td><td>聚合DeepSeek/Qwen等模型，模型试用与下载免费</td></tr>
-    <tr><td>52</td><td>字节 方舟协作奖励计划</td><td><a href="https://www.volcengine.com/product/ark" target="_blank">https://www.volcengine.com/product/ark</a></td><td>🔓🎉✔</td><td>参与计划单模型每天送50万Tokens</td></tr>
-    <tr><td>53</td><td>智谱 BigModel</td><td><a href="https://open.bigmodel.cn" target="_blank">https://open.bigmodel.cn</a></td><td>🆓🎉✔</td><td>GLM-4-Flash API完全免费，支持128K上下文</td></tr>
-    <tr><td>54</td><td>书生 InternLM</td><td><a href="https://internlm.intern-ai.org.cn" target="_blank">https://internlm.intern-ai.org.cn</a></td><td>🆓🎉✔</td><td>官方开放免费API，可直接调用</td></tr>
-    <tr><td>55</td><td>GitHub Models</td><td><a href="https://docs.github.com/github-models" target="_blank">https://docs.github.com/github-models</a></td><td>🔓✌🎉🌎✔</td><td>Azure托管，提供受限免费API配额</td></tr>
+    <tr><td>48</td><td>OpenAI 数据共享计划</td><td><a href="https://platform.openai.com" target="_blank">https://platform.openai.com</a></td><td>🔓✌🌎</td><td>开启数据共享后每日最高获1 M免费tokens</td></tr>
+    <tr><td>49</td><td>Mistral AI La Plateforme</td><td><a href="https://platform.mistral.ai" target="_blank">https://platform.mistral.ai</a></td><td>🔓🎉🌎</td><td>官方平台提供免费API试用额度（受限速率）</td></tr>
+    <tr><td>50</td><td>Cohere</td><td><a href="https://cohere.com" target="_blank">https://cohere.com</a></td><td>🔓🎉🌎</td><td>注册可获Trial Key，免费调用但有速率限制</td></tr>
+    <tr><td>51</td><td>魔搭 ModelScope</td><td><a href="https://modelscope.cn" target="_blank">https://modelscope.cn</a></td><td>🔓🎉🚩</td><td>聚合DeepSeek/Qwen等模型，模型试用与下载免费</td></tr>
+    <tr><td>52</td><td>字节 方舟协作奖励计划</td><td><a href="https://www.volcengine.com/product/ark" target="_blank">https://www.volcengine.com/product/ark</a></td><td>🔓🎉</td><td>参与计划单模型每天送50万Tokens</td></tr>
+    <tr><td>53</td><td>智谱 BigModel</td><td><a href="https://open.bigmodel.cn" target="_blank">https://open.bigmodel.cn</a></td><td>🆓🎉</td><td>GLM-4-Flash API完全免费，支持128K上下文</td></tr>
+    <tr><td>54</td><td>书生 InternLM</td><td><a href="https://internlm.intern-ai.org.cn" target="_blank">https://internlm.intern-ai.org.cn</a></td><td>🆓🎉</td><td>官方开放免费API，可直接调用</td></tr>
+    <tr><td>55</td><td>GitHub Models</td><td><a href="https://docs.github.com/github-models" target="_blank">https://docs.github.com/github-models</a></td><td>🔓✌🎉🌎</td><td>Azure托管，提供受限免费API配额</td></tr>
     <tr><td>56</td><td>OpenRouter（免费版）</td><td><a href="https://openrouter.ai" target="_blank">https://openrouter.ai</a></td><td>🔓💪✌🎉🌎✔</td><td>免费模型每日≤50次，余额≥10 $可升至1000次</td></tr>
-    <tr><td>57</td><td>Chutes</td><td><a href="https://chutes.ai" target="_blank">https://chutes.ai</a></td><td>🔓🎉✔</td><td>部分模型每日200条免费额度，支持DeepSeek等</td></tr>
-    <tr><td>58</td><td>Groq Cloud</td><td><a href="https://groq.com/groqcloud" target="_blank">https://groq.com/groqcloud</a></td><td>🔓🎉🌎✔</td><td>可申请免费API Key，OpenAI兼容端点，推理速度极快</td></tr>
-    <tr><td>59</td><td>Cerebras Inference</td><td><a href="https://inference.cerebras.ai" target="_blank">https://inference.cerebras.ai</a></td><td>🔓🎉🌎🚀✔</td><td>开发者每日享1 M免费tokens，LLM推理可达450 t/s+</td></tr>
-    <tr><td>60</td><td>无问芯穹 GenStudio</td><td><a href="https://cloud.infini-ai.com/genstudio" target="_blank">https://cloud.infini-ai.com/genstudio</a></td><td>🆓🎉✔</td><td>DeepSeek R1/V3满血版免费Token，无需邀请码</td></tr>
+    <tr><td>57</td><td>Chutes</td><td><a href="https://chutes.ai" target="_blank">https://chutes.ai</a></td><td>🔓🎉</td><td>部分模型每日200条免费额度，支持DeepSeek等</td></tr>
+    <tr><td>58</td><td>Groq Cloud</td><td><a href="https://groq.com/groqcloud" target="_blank">https://groq.com/groqcloud</a></td><td>🔓🎉🌎</td><td>可申请免费API Key，OpenAI兼容端点，推理速度极快</td></tr>
+    <tr><td>59</td><td>Cerebras Inference</td><td><a href="https://inference.cerebras.ai" target="_blank">https://inference.cerebras.ai</a></td><td>🔓🎉🌎🚀</td><td>开发者每日享1 M免费tokens，LLM推理可达450 t/s+</td></tr>
+    <tr><td>60</td><td>无问芯穹 GenStudio</td><td><a href="https://cloud.infini-ai.com/genstudio" target="_blank">https://cloud.infini-ai.com/genstudio</a></td><td>🆓🎉</td><td>DeepSeek R1/V3满血版免费Token，无需邀请码</td></tr>
     
   </tbody>
 </table>
