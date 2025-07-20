@@ -109,7 +109,7 @@
     <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉🎁💰</td><td>新用户注册送0.3 $额度，聚合Claude/Grok/OpenAI等多模型</td></tr>
     <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>官方费率，稳定直连，支持OpenAI与Claude接口</td></tr>
     <tr><td>6</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>【全公益网站】余额每日清零</td></tr>
-    <tr><td>7</td><td>头顶冒火</td><td><a href="https://burn.hair" target="_blank">https://burn.hair</a></td><td>✌🎉😆🚀</td><td>赠$0.3，每日签到得额度，支持高并发</td></tr>
+    <tr><td>7</td><td>inscopilot(推荐)</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>✌🎉😆🚀</td><td>赠$1，稳定便宜，支持cc</td></tr>
     <tr><td>8</td><td>V3 API（混合版）</td><td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td><td>🚀🔓💪🎁🎉✌</td><td>赠$0.2，高并发，3折充值，超多模型</td></tr>
     <tr><td>9</td><td>V3 API（官转版）</td><td><a href="https://gf.gpt.ge" target="_blank">https://gf.gpt.ge</a></td><td>🚀🌹🔓💪</td><td>赠$0.2，高并发，6折充值</td></tr>
     <tr><td>10</td><td>openai-hk</td><td><a href="https://openai-hk.com" target="_blank">https://openai-hk.com</a></td><td>🆓🔓🎉✌💪🚀</td><td>赠1元，超高并发，含GPT-3.5公益版</td></tr>
