@@ -104,10 +104,10 @@
   </thead>
   <tbody>
     <tr><td>1</td><td>chat01（推荐，含邀请码）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🔓✌🎁💰✔</td><td>支持Pro，解决降智问题，每天免费2积分，聊天+API同站</td></tr>
-    <tr><td>2</td><td>硅基流动（企业级）</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓💪✌🎉🚀🚩✔</td><td>华为云昇腾服务，实名送14元，每日最多请求100次</td></tr>
-    <tr><td>3</td><td>YourAPI</td><td><a href="https://yourapi.cn" target="_blank">https://yourapi.cn</a></td><td>🔓✌🎁💰✔</td><td>AICNN用户转入赠10%额度，OpenAI兼容接口</td></tr>
-    <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉🎁💰✔</td><td>新用户注册送0.3 $额度，聚合Claude/Grok/OpenAI等多模型</td></tr>
-    <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪✔</td><td>官方费率，稳定直连，支持OpenAI与Claude接口</td></tr>
+    <tr><td>2</td><td>硅基流动（企业级）</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓🎉🚀🚩✔</td><td>华为云昇腾服务，实名送14元，每日最多请求100次</td></tr>
+    <tr><td>3</td><td>YourAPI</td><td><a href="https://yourapi.cn" target="_blank">https://yourapi.cn</a></td><td>🔓✌🎁💰</td><td>AICNN用户转入赠10%额度，OpenAI兼容接口</td></tr>
+    <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉🎁💰</td><td>新用户注册送0.3 $额度，聚合Claude/Grok/OpenAI等多模型</td></tr>
+    <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>官方费率，稳定直连，支持OpenAI与Claude接口</td></tr>
     <tr><td>6</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>【全公益网站】余额每日清零</td></tr>
     <tr><td>7</td><td>头顶冒火</td><td><a href="https://burn.hair" target="_blank">https://burn.hair</a></td><td>✌🎉😆🚀</td><td>赠$0.3，每日签到得额度，支持高并发</td></tr>
     <tr><td>8</td><td>V3 API（混合版）</td><td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td><td>🚀🔓💪🎁🎉✌</td><td>赠$0.2，高并发，3折充值，超多模型</td></tr>
@@ -119,7 +119,7 @@
     <tr><td>14</td><td>openkey</td><td><a href="https://openkey.cloud" target="_blank">https://openkey.cloud</a></td><td>🔓💪✌🚀</td><td>赠$0.2，支持多并发</td></tr>
     <tr><td>15</td><td>gptgod.online</td><td><a href="https://gptgod.online" target="_blank">https://gptgod.online</a></td><td>💪✌🎁💰🎉😆</td><td>按次计费，积分额度</td></tr>
     <tr><td>16</td><td>m3.ckit.gold</td><td><a href="https://m3.ckit.gold" target="_blank">https://m3.ckit.gold</a></td><td>💰💪✌</td><td>3元/刀，注册送$0.1</td></tr>
-    <tr><td>17</td><td>小兔API</td><td><a href="https://api.aischat.xy" target="_blank">https://api.aischat.xy</a></td><td>🆓💪✌</td><td></td></tr>
+    <tr><td>17</td><td>inscopilot(推荐)</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
     <tr><td>18</td><td>goapi.gptnb.ai</td><td><a href="https://goapi.gptnb.ai" target="_blank">https://goapi.gptnb.ai</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
     <tr><td>19</td><td>api.aigc369.com</td><td><a href="https://api.aigc369.com/pricing" target="_blank">https://api.aigc369.com</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
     <tr><td>20</td><td>api.mjdjourney.cn</td><td><a href="https://api.mjdjourney.cn" target="_blank">https://api.mjdjourney.cn</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
