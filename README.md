@@ -119,7 +119,7 @@
     <tr><td>14</td><td>openkey</td><td><a href="https://openkey.cloud" target="_blank">https://openkey.cloud</a></td><td>🔓💪✌🚀</td><td>赠$0.2，支持多并发</td></tr>
     <tr><td>15</td><td>gptgod.online</td><td><a href="https://gptgod.online" target="_blank">https://gptgod.online</a></td><td>💪✌🎁💰🎉😆</td><td>按次计费，积分额度</td></tr>
     <tr><td>16</td><td>m3.ckit.gold</td><td><a href="https://m3.ckit.gold" target="_blank">https://m3.ckit.gold</a></td><td>💰💪✌</td><td>3元/刀，注册送$0.1</td></tr>
-    <tr><td>17</td><td>inscopilot(推荐)</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
+    <tr><td>17</td><td>inscopilot(推荐)</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>💪✌🎁💰🎉</td><td>稳定，价格低，支持cc</td></tr>
     <tr><td>18</td><td>goapi.gptnb.ai</td><td><a href="https://goapi.gptnb.ai" target="_blank">https://goapi.gptnb.ai</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
     <tr><td>19</td><td>api.aigc369.com</td><td><a href="https://api.aigc369.com/pricing" target="_blank">https://api.aigc369.com</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
     <tr><td>20</td><td>api.mjdjourney.cn</td><td><a href="https://api.mjdjourney.cn" target="_blank">https://api.mjdjourney.cn</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
@@ -198,6 +198,7 @@
 | # | 名称     | 链接                                       | 状态     |
 | - | ------ | ---------------------------------------- | ------ |
 | 1 | 464888 | [api.464888.xyz](https://api.464888.xyz) | ❌ 无法访问 |
+| 2 | 小兔api | [api.aischat.xy](https://api.aischat.xy) | ❌ 无法访问 |
 
 > 如发现新失效平台，欢迎通过 Issue 提交！
 
