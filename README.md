@@ -109,7 +109,7 @@
     <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉🎁💰</td><td>新用户注册送0.3 $额度，聚合Claude/Grok/OpenAI等多模型</td></tr>
     <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>官方费率，稳定直连，支持OpenAI与Claude接口</td></tr>
     <tr><td>6</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>【全公益网站】余额每日清零</td></tr>
-    <tr><td>7</td><td>inscopilot(推荐)</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>✌🎉😆🚀</td><td>赠$1，稳定便宜，支持cc</td></tr>
+    <tr><td>7</td><td>inscopilot(推荐)</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>✌🎉😆🚀</td><td>赠$1，稳定便宜，支持cc，稳定性中，与官网同时崩溃</td></tr>
     <tr><td>8</td><td>V3 API（混合版）</td><td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td><td>🚀🔓💪🎁🎉✌</td><td>赠$0.2，高并发，3折充值，超多模型</td></tr>
     <tr><td>9</td><td>V3 API（官转版）</td><td><a href="https://gf.gpt.ge" target="_blank">https://gf.gpt.ge</a></td><td>🚀🌹🔓💪</td><td>赠$0.2，高并发，6折充值</td></tr>
     <tr><td>10</td><td>openai-hk</td><td><a href="https://openai-hk.com" target="_blank">https://openai-hk.com</a></td><td>🆓🔓🎉✌💪🚀</td><td>赠1元，超高并发，含GPT-3.5公益版</td></tr>
@@ -145,8 +145,8 @@
     <tr><td>40</td><td>OpenAI120</td><td><a href="https://openai120.com" target="_blank">https://openai120.com</a></td><td>🔓✌🎁</td><td>新用户送$3额度，单价同官方</td></tr>
     <tr><td>41</td><td>DuckAGI</td><td><a href="https://duckagi.com" target="_blank">https://duckagi.com</a></td><td>💰✌🎉🚀</td><td>多模态支持GPT-4o/Sora，适合AI绘图</td></tr>
     <tr><td>42</td><td>Aihubmix</td><td><a href="https://aihubmix.com" target="_blank">https://aihubmix.com</a></td><td>💰🎉</td><td>国产模型聚合（文心一言/通义千问）</td></tr>
-    <tr><td>43</td><td>WokaAI</td><td><a href="https://wokaai.com" target="_blank">https://wokaai.com</a></td><td>✌🚩</td><td>上海企业运营，ICP备案双线路</td></tr>
-    <tr><td>44</td><td>azapi</td><td><a href="https://azapi.com.cn" target="_blank">https://azapi.com.cn</a></td><td>💰🚩</td><td>杭州企业备案，长期使用优惠</td></tr>
+    <tr><td>43</td><td>WokaAI</td><td><a href="https://wokaai.com" target="_blank">https://wokaai.com</a></td><td>✌</td><td>双线路</td></tr>
+    <tr><td>44</td><td>azapi</td><td><a href="https://azapi.com.cn" target="_blank">https://azapi.com.cn</a></td><td>💰</td><td>长期使用优惠</td></tr>
     <tr><td>45</td><td>ClaudeAPI</td><td><a href="https://claudeapi.io" target="_blank">https://claudeapi.io</a></td><td>💪🚀✔</td><td>Anthropic官方合作，支持文件解析</td></tr>
     <tr><td>46</td><td>Gala API</td><td><a href="https://galaapi.com" target="_blank">https://galaapi.com</a></td><td>🎉🚀</td><td>谷歌Gemini专用高速通道</td></tr>
     <tr><td>47</td><td>Google AI Studio</td><td><a href="https://ai.google.dev" target="_blank">https://ai.google.dev</a></td><td>🆓🌎✔</td><td>Gemini系列完全免费，需科学上网访问</td></tr>
