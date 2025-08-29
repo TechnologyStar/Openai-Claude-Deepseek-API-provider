@@ -20,7 +20,7 @@
 > ⚠️ **使用说明**
 >
 > 本项目为免费公益项目，严格禁止任何违法用途。
->
+>**本项目不会收录一些AI论坛内部的站点，如有误收录，请联系删除，在评估后将会对部分误收录网站进行赔偿**
 > * 遵守 [OpenAI 使用条款](https://openai.com/policies/terms-of-use)
 > * 遵守 [《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)，**请勿对中国公众提供未经备案的生成式AI服务**。
 > * 官网 [Openai / Claude / Deepseek API Provider](https://d706445b-7658-4708-bb08-bac6c5a775ad-00-2z2hsdckl4fie.riker.replit.dev/)
