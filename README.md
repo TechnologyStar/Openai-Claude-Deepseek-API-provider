@@ -105,7 +105,7 @@
   <tbody>
     <tr><td>1</td><td>chat01（推荐，含邀请码）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🔓✌🎁💰✔</td><td>支持Pro，解决降智问题，每天免费2积分，聊天+API同站</td></tr>
     <tr><td>2</td><td>硅基流动（企业级）</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓🎉🚀🚩✔</td><td>华为云昇腾服务，注册送14元</td></tr>
-    <tr><td>3</td><td>YourAPI</td><td><a href="https://yourapi.cn" target="_blank">https://yourapi.cn</a></td><td>🔓✌🎁💰</td><td>AICNN用户转入赠10%额度，OpenAI兼容接口</td></tr>
+    <tr><td>3</td><td>zenmux(推荐，含免费gemini3及画图)</td><td><a href="https://zenmux.ai/invite/U1QU1H" target="_blank">https://zenmux.ai</a></td><td>🔓✌🎁💰</td><td>免费gemini3pro,全球首个支持赔付的大模型聚合</td></tr>
     <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉🎁💰</td><td>新用户注册送0.3 $额度，聚合Claude/Grok/OpenAI等多模型</td></tr>
     <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>官方费率，稳定直连，支持OpenAI与Claude接口</td></tr>
     <tr><td>6</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>【全公益网站】余额每日清零</td></tr>
