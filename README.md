@@ -213,11 +213,11 @@
 
 ## 🙏 特别鸣谢
 
-非常感谢 Replit 提供 IDE 平台支持！  
-[立即注册并使用邀请码](https://replit.com/refer/HarmonyOSam)
+非常感谢 zenmux 提供 api 平台支持！  
+[立即注册并使用优惠码](https://zenmux.ai/invite/U1QU1H)
 
-非常感谢 chat01 提供 API 服务支持！  
-[访问 chat01 并使用邀请码](https://chat01.ai/?ref=j45ikbTa)
+非常感谢 chat01 提供服务支持！  
+[访问 chat01 并使用优惠码](https://chat01.ai/?ref=j45ikbTa)
 
 [![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
 ---
