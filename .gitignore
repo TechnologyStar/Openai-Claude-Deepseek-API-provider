@@ -1,0 +1,30 @@
+# Common Node/Vite artifacts
+node_modules/
+dist/
+build/
+.tmp/
+.temp/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Coverage / test output
+coverage/
+.junit/
+
+# Misc
+*.local
