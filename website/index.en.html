@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌐 OpenAI / Claude / DeepSeek API Provider Directory</title>
+  <meta name="description" content="A curated list of third-party platforms providing OpenAI / Claude / DeepSeek APIs for learning, research, and non-commercial use.">
+  <meta name="keywords" content="OpenAI, Claude, DeepSeek, API, third-party, free, artificial intelligence, AI">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    header {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+      color: #667eea;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .subtitle {
+      font-size: 1.2em;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    
+    .badges {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+    
+    .badges img {
+      height: 20px;
+    }
+    
+    .lang-switcher {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    
+    .lang-btn {
+      padding: 8px 16px;
+      background: #667eea;
+      color: white;
+      text-decoration: none;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: all 0.3s;
+    }
+    
+    .lang-btn:hover {
+      background: #764ba2;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    }
+    
+    .lang-btn.active {
+      background: #764ba2;
+    }
+    
+    .notice {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    
+    .section {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #667eea;
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 10px;
+    }
+    
+    h3 {
+      font-size: 1.5em;
+      margin: 20px 0 10px;
+      color: #764ba2;
+    }
+    
+    .tags-legend {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+      margin: 20px 0;
+    }
+    
+    .tag-item {
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      border-left: 3px solid #667eea;
+    }
+    
+    .providers-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      overflow-x: auto;
+      display: block;
+    }
+    
+    .providers-table table {
+      width: 100%;
+      min-width: 800px;
+    }
+    
+    .providers-table th,
+    .providers-table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    
+    .providers-table th {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      font-weight: 600;
+      position: sticky;
+      top: 0;
+    }
+    
+    .providers-table tr:hover {
+      background: #f5f5f5;
+    }
+    
+    .providers-table a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .providers-table a:hover {
+      text-decoration: underline;
+    }
+    
+    .apps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    
+    .app-card {
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 10px;
+      border-left: 4px solid #667eea;
+      transition: all 0.3s;
+    }
+    
+    .app-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .app-card h4 {
+      color: #667eea;
+      margin-bottom: 10px;
+    }
+    
+    .usage-steps {
+      counter-reset: step;
+      list-style: none;
+      padding: 0;
+    }
+    
+    .usage-steps li {
+      counter-increment: step;
+      padding: 15px;
+      margin: 10px 0;
+      background: #f8f9fa;
+      border-radius: 10px;
+      position: relative;
+      padding-left: 60px;
+    }
+    
+    .usage-steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    
+    footer {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 30px;
+      text-align: center;
+      margin-top: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    
+    .stat-card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    .stat-number {
+      font-size: 3em;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .stat-label {
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+    
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8em;
+      }
+      
+      .providers-table {
+        font-size: 14px;
+      }
+      
+      .container {
+        padding: 10px;
+      }
+    }
+    
+    details {
+      margin: 20px 0;
+    }
+    
+    summary {
+      cursor: pointer;
+      padding: 15px;
+      background: #f8f9fa;
+      border-radius: 10px;
+      font-weight: 600;
+      color: #667eea;
+      user-select: none;
+    }
+    
+    summary:hover {
+      background: #e9ecef;
+    }
+    
+    details[open] summary {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌐 OpenAI / Claude / DeepSeek API Provider</h1>
+      <p class="subtitle">A curated list of third-party platforms providing</p>
+      <p class="subtitle">OpenAI / Claude / DeepSeek APIs for learning, research, and non-commercial use</p>
+      
+      <div class="badges">
+        <img src="https://img.shields.io/github/last-commit/TechnologyStar/Openai-Claude-Deepseek-API-provider" alt="Last Commit">
+        <img src="https://img.shields.io/github/license/TechnologyStar/Openai-Claude-Deepseek-API-provider" alt="License">
+      </div>
+      
+      <div class="lang-switcher">
+        <a href="index.zh-CN.html" class="lang-btn">🇨🇳 中文</a>
+        <a href="index.en.html" class="lang-btn active">🇬🇧 English</a>
+        <a href="index.ru.html" class="lang-btn">🇷🇺 Русский</a>
+        <a href="index.fr.html" class="lang-btn">🇫🇷 Français</a>
+      </div>
+    </header>
+    
+    <div class="notice section">
+      <h3>⚠️ Usage Notice</h3>
+      <p><strong>This is a free public service project. Any illegal use is strictly prohibited.</strong></p>
+      <ul style="margin-top: 10px; margin-left: 20px;">
+        <li>Follow <a href="https://openai.com/policies/terms-of-use" target="_blank">OpenAI Terms of Use</a></li>
+        <li>Respect local laws and regulations regarding generative AI services</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <h2>🚀 Project Overview</h2>
+      <p>📌 A collection of verified third-party API providers (some offer free access)</p>
+      <p>🔧 No registration / Easy access / Multi-model support (OpenAI, Claude, DeepSeek, etc.)</p>
+      <p>🔐 Use caution: <strong>Do not enter sensitive personal data</strong> on any platform</p>
+      <p style="margin-top: 15px;">💡 If you find this helpful, consider giving it a Star! ⭐</p>
+    </div>
+    
+    <div class="section">
+      <h2>📊 Statistics</h2>
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-number">60+</div>
+          <div class="stat-label">API Providers</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">20+</div>
+          <div class="stat-label">Free Platforms</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">8</div>
+          <div class="stat-label">Recommended Apps</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>🎁 Tag Legend</h2>
+      <div class="tags-legend">
+        <div class="tag-item">🆓 Completely Free</div>
+        <div class="tag-item">🔓 Free Quota Available</div>
+        <div class="tag-item">💰 Requires Payment</div>
+        <div class="tag-item">💪 Supports Latest Claude</div>
+        <div class="tag-item">✌ Supports Latest OpenAI</div>
+        <div class="tag-item">🎉 Other Models (e.g., DeepSeek)</div>
+        <div class="tag-item">🌎 International Network Required</div>
+        <div class="tag-item">🎁 Bonus Credits/Discounts</div>
+        <div class="tag-item">🚀 High Concurrency Support</div>
+        <div class="tag-item">😆 Daily Check-in Rewards</div>
+        <div class="tag-item">🚩 Verified Platform</div>
+        <div class="tag-item">✔ Verified Authenticity</div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>🌐 Third-Party API Providers</h2>
+      <div class="providers-table">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Platform</th>
+              <th>Link</th>
+              <th>Tags</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>chat01 (Recommended)</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🔓✌🎁💰✔</td><td>Supports Pro, solves degradation issues, 2 free credits/day, chat + API</td></tr>
+            <tr><td>2</td><td>SiliconFlow (Enterprise)</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓🎉🚀🚩✔</td><td>Huawei Cloud Ascend service, ¥14 registration bonus</td></tr>
+            <tr><td>3</td><td>zenmux (Recommended)</td><td><a href="https://zenmux.ai/invite/U1QU1H" target="_blank">https://zenmux.ai</a></td><td>🔓✌🎁💰</td><td>Free Gemini 3 Pro, world's first compensated LLM aggregation</td></tr>
+            <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉🎁💰</td><td>New users get $0.3, aggregates Claude/Grok/OpenAI models</td></tr>
+            <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>Official pricing, stable connection, OpenAI & Claude support</td></tr>
+            <tr><td>6</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>Free public platform, balance resets daily</td></tr>
+            <tr><td>7</td><td>inscopilot (Recommended)</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>✌🎉😆🚀</td><td>$5 bonus, stable & cheap, supports CC</td></tr>
+            <tr><td>8</td><td>V3 API (Mixed)</td><td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td><td>🚀🔓💪🎁🎉✌</td><td>$0.2 bonus, high concurrency, 30% recharge, many models</td></tr>
+            <tr><td>9</td><td>V3 API (Official)</td><td><a href="https://gf.gpt.ge" target="_blank">https://gf.gpt.ge</a></td><td>🚀🌹🔓💪</td><td>$0.2 bonus, high concurrency, 60% recharge</td></tr>
+            <tr><td>10</td><td>openai-hk</td><td><a href="https://openai-hk.com" target="_blank">https://openai-hk.com</a></td><td>🆓🔓🎉✌💪🚀</td><td>¥1 bonus, ultra-high concurrency, includes GPT-3.5 free version</td></tr>
+            <tr><td>11</td><td>ChatGPT API Faucet</td><td><a href="https://faucet.openkey.cloud" target="_blank">https://faucet.openkey.cloud</a></td><td>🆓</td><td>Free $1 credit, valid for 3 days</td></tr>
+            <tr><td>12</td><td>Free ChatGPT API</td><td><a href="https://github.com/popjane/free_chatgpt_api" target="_blank">GitHub</a></td><td>🆓</td><td>Free public service</td></tr>
+            <tr><td>13</td><td>GPT-API-free</td><td><a href="https://github.com/chuyuewei/ChatGPT-API" target="_blank">GitHub</a></td><td>🆓💪</td><td>Supports GPT-4, 3 calls per day</td></tr>
+            <tr><td>14</td><td>openkey</td><td><a href="https://openkey.cloud" target="_blank">https://openkey.cloud</a></td><td>🔓💪✌🚀</td><td>$0.2 bonus, multi-concurrency support</td></tr>
+            <tr><td>15</td><td>gptgod.online</td><td><a href="https://gptgod.online" target="_blank">https://gptgod.online</a></td><td>💪✌🎁💰🎉😆</td><td>Pay-per-use, credit system</td></tr>
+            <tr><td>16</td><td>m3.ckit.gold</td><td><a href="https://m3.ckit.gold" target="_blank">https://m3.ckit.gold</a></td><td>💰💪✌</td><td>¥3 per dollar, $0.1 signup bonus</td></tr>
+            <tr><td>17</td><td>iaicnn</td><td><a href="https://aicnn.cn" target="_blank">https://aicnn.cn</a></td><td>💪✌🎁💰🎉</td><td>API support for legacy users, migrated</td></tr>
+            <tr><td>18</td><td>goapi.gptnb.ai</td><td><a href="https://goapi.gptnb.ai" target="_blank">https://goapi.gptnb.ai</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
+            <tr><td>19</td><td>api.aigc369.com</td><td><a href="https://api.aigc369.com/pricing" target="_blank">https://api.aigc369.com</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
+            <tr><td>20</td><td>api.mjdjourney.cn</td><td><a href="https://api.mjdjourney.cn" target="_blank">https://api.mjdjourney.cn</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
+            <tr><td>21</td><td>api.bltcy.ai</td><td><a href="https://api.bltcy.ai" target="_blank">https://api.bltcy.ai</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
+            <tr><td>22</td><td>4Z API Relay</td><td><a href="https://zzzzapi.com" target="_blank">https://zzzzapi.com</a></td><td>🔓✌💪🎉🚀</td><td>Supports GPT-4o, Claude 3.5, $0.2 for new users</td></tr>
+            <tr><td>23</td><td>Simple API Relay</td><td><a href="https://jeniya.top" target="_blank">https://jeniya.top</a></td><td>🔓✌💪🎉🚀</td><td>Multi-model aggregation, no restrictions, ¥100 test credit</td></tr>
+            <tr><td>24</td><td>CloseAI</td><td><a href="https://closeai-asia.com" target="_blank">https://closeai-asia.com</a></td><td>💰✌💪🎉🚀</td><td>Enterprise proxy, GPT-4o & Claude 3.5, Chinese support</td></tr>
+            <tr><td>25</td><td>Cloud Whale AI</td><td><a href="https://api.atalk-ai.com" target="_blank">https://api.atalk-ai.com</a></td><td>🔓✌💪🎉🚀</td><td>Aggregates ChatGPT, Claude, Wenxin, ¥5 trial voucher</td></tr>
+            <tr><td>26</td><td>ModelBridge</td><td><a href="https://model-bridge.okeeper.com" target="_blank">https://model-bridge.okeeper.com</a></td><td>🔓✌💪🎉🚀</td><td>Free domestic proxy, OpenAI compatible with Chinese models</td></tr>
+            <tr><td>27</td><td>UiUi API</td><td><a href="https://sg.uiuiapi.com" target="_blank">https://sg.uiuiapi.com</a></td><td>🔓✌💪🎉🚀</td><td>Supports Claude 4, Gemini, OpenAI format compatible</td></tr>
+            <tr><td>28</td><td>LaoZhang API Relay</td><td><a href="https://api.laozhang.ai" target="_blank">https://api.laozhang.ai</a></td><td>🔓✌💪🎉🚀</td><td>Claude 3 & GPT-4o, ¥20 for new users, Alipay/WeChat</td></tr>
+            <tr><td>29</td><td>Haiwhale AI Platform</td><td><a href="https://ai.atalk-ai.com" target="_blank">https://ai.atalk-ai.com</a></td><td>🔓✌💪🎉🚀</td><td>Registered platform, unified multi-model API access</td></tr>
+            <tr><td>30</td><td>One API</td><td><a href="https://one-api.ai" target="_blank">https://one-api.ai</a></td><td>🔓✌💪🎉🚀</td><td>Open-source interface management, multi-model & private deployment</td></tr>
+            <tr><td>31</td><td>OpenRouter</td><td><a href="https://openrouter.ai" target="_blank">https://openrouter.ai</a></td><td>🔓✌💪🎉🚀</td><td>293 models (OpenAI, Claude, Gemini), free quota provided</td></tr>
+            <tr><td>32</td><td>Gemini API Proxy</td><td><a href="https://gemini-proxy.com" target="_blank">https://gemini-proxy.com</a></td><td>🔓✌🎉🚀</td><td>Google Gemini models, OpenAI compatible, free quota</td></tr>
+            <tr><td>33</td><td>DeepSeek API Aggregation</td><td><a href="https://deepseek-aggregator.com" target="_blank">https://deepseek-aggregator.com</a></td><td>🔓💪🎉🚀</td><td>DeepSeek series aggregation, free test quota</td></tr>
+            <tr><td>34</td><td>Hugging Face Inference</td><td><a href="https://huggingface.co/inference-api" target="_blank">https://huggingface.co/inference-api</a></td><td>🔓💪🎉🚀</td><td>Open-source models (Llama 3), free & enterprise tiers</td></tr>
+            <tr><td>35</td><td>AI21 Labs Official</td><td><a href="https://studio.ai21.com" target="_blank">https://studio.ai21.com</a></td><td>💰✌💪🎉</td><td>Jurassic-2 models, NLP tasks</td></tr>
+            <tr><td>36</td><td>Cohere API</td><td><a href="https://cohere.ai" target="_blank">https://cohere.ai</a></td><td>💰✌💪🎉</td><td>Text generation & classification, enterprise API</td></tr>
+            <tr><td>37</td><td>AI API Aggregator</td><td><a href="https://api.ai-aggregator.com" target="_blank">https://api.ai-aggregator.com</a></td><td>🔓✌💪🎉🚀</td><td>Multi-model aggregation, unified interface, load balancing</td></tr>
+            <tr><td>38</td><td>AI.LS</td><td><a href="https://ai.ls" target="_blank">https://ai.ls</a></td><td>🆓✌</td><td>Minimal interface, GPT-3.5 free anonymous use</td></tr>
+            <tr><td>39</td><td>Simple API</td><td><a href="https://jeniya.top" target="_blank">https://jeniya.top</a></td><td>🔓✌💪🎉🎁</td><td>¥100 signup credit, Claude/GPT-4o support</td></tr>
+            <tr><td>40</td><td>OpenAI120</td><td><a href="https://openai120.com" target="_blank">https://openai120.com</a></td><td>🔓✌🎁</td><td>$3 for new users, official pricing</td></tr>
+            <tr><td>41</td><td>DuckAGI</td><td><a href="https://duckagi.com" target="_blank">https://duckagi.com</a></td><td>💰✌🎉🚀</td><td>Multimodal GPT-4o/Sora, AI art generation</td></tr>
+            <tr><td>42</td><td>Aihubmix</td><td><a href="https://aihubmix.com" target="_blank">https://aihubmix.com</a></td><td>💰🎉</td><td>Chinese model aggregation (Wenxin/Tongyi)</td></tr>
+            <tr><td>43</td><td>WokaAI</td><td><a href="https://wokaai.com" target="_blank">https://wokaai.com</a></td><td>✌</td><td>Dual routes</td></tr>
+            <tr><td>44</td><td>azapi</td><td><a href="https://azapi.com.cn" target="_blank">https://azapi.com.cn</a></td><td>💰</td><td>Long-term user discounts</td></tr>
+            <tr><td>45</td><td>ClaudeAPI</td><td><a href="https://claudeapi.io" target="_blank">https://claudeapi.io</a></td><td>💪🚀✔</td><td>Anthropic official partnership, file parsing support</td></tr>
+            <tr><td>46</td><td>Gala API</td><td><a href="https://galaapi.com" target="_blank">https://galaapi.com</a></td><td>🎉🚀</td><td>Google Gemini dedicated high-speed channel</td></tr>
+            <tr><td>47</td><td>Google AI Studio</td><td><a href="https://ai.google.dev" target="_blank">https://ai.google.dev</a></td><td>🆓🌎✔</td><td>Gemini series completely free, VPN required</td></tr>
+            <tr><td>48</td><td>OpenAI Data Sharing</td><td><a href="https://platform.openai.com" target="_blank">https://platform.openai.com</a></td><td>🔓✌🌎</td><td>Up to 1M free tokens daily with data sharing enabled</td></tr>
+            <tr><td>49</td><td>Mistral AI Platform</td><td><a href="https://platform.mistral.ai" target="_blank">https://platform.mistral.ai</a></td><td>🔓🎉🌎</td><td>Official platform free API trial (rate limited)</td></tr>
+            <tr><td>50</td><td>Cohere</td><td><a href="https://cohere.com" target="_blank">https://cohere.com</a></td><td>🔓🎉🌎</td><td>Trial key on registration, free with rate limits</td></tr>
+            <tr><td>51</td><td>ModelScope</td><td><a href="https://modelscope.cn" target="_blank">https://modelscope.cn</a></td><td>🔓🎉🚩</td><td>Aggregates DeepSeek/Qwen, free model trial & download</td></tr>
+            <tr><td>52</td><td>ByteDance Ark Plan</td><td><a href="https://www.volcengine.com/product/ark" target="_blank">https://www.volcengine.com/product/ark</a></td><td>🔓🎉</td><td>500K tokens daily per model in collaboration plan</td></tr>
+            <tr><td>53</td><td>Zhipu BigModel</td><td><a href="https://open.bigmodel.cn" target="_blank">https://open.bigmodel.cn</a></td><td>🆓🎉</td><td>GLM-4-Flash API completely free, 128K context</td></tr>
+            <tr><td>54</td><td>InternLM</td><td><a href="https://internlm.intern-ai.org.cn" target="_blank">https://internlm.intern-ai.org.cn</a></td><td>🆓🎉</td><td>Official free API, direct access</td></tr>
+            <tr><td>55</td><td>GitHub Models</td><td><a href="https://docs.github.com/github-models" target="_blank">https://docs.github.com/github-models</a></td><td>🔓✌🎉🌎</td><td>Azure-hosted, limited free API quota</td></tr>
+            <tr><td>56</td><td>OpenRouter (Free)</td><td><a href="https://openrouter.ai" target="_blank">https://openrouter.ai</a></td><td>🔓💪✌🎉🌎✔</td><td>Free models ≤50 daily, ≥$10 balance upgrades to 1000</td></tr>
+            <tr><td>57</td><td>Chutes</td><td><a href="https://chutes.ai" target="_blank">https://chutes.ai</a></td><td>🔓🎉</td><td>Some models 200 free calls daily, DeepSeek support</td></tr>
+            <tr><td>58</td><td>Groq Cloud</td><td><a href="https://groq.com/groqcloud" target="_blank">https://groq.com/groqcloud</a></td><td>🔓🎉🌎</td><td>Free API key available, OpenAI compatible, ultra-fast inference</td></tr>
+            <tr><td>59</td><td>Cerebras Inference</td><td><a href="https://inference.cerebras.ai" target="_blank">https://inference.cerebras.ai</a></td><td>🔓🎉🌎🚀</td><td>Developers enjoy 1M free tokens daily, LLM inference 450+ t/s</td></tr>
+            <tr><td>60</td><td>Infini-AI GenStudio</td><td><a href="https://cloud.infini-ai.com/genstudio" target="_blank">https://cloud.infini-ai.com/genstudio</a></td><td>🆓🎉</td><td>DeepSeek R1/V3 full version free tokens, no invite code needed</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>📱 Compatible Applications</h2>
+      <details>
+        <summary>📦 Click to view compatible apps</summary>
+        <div class="apps-grid">
+          <div class="app-card">
+            <h4>✅ <a href="https://github.com/CherryHQ/cherry-studio" target="_blank">Cherry Studio</a></h4>
+            <p>Cross-platform desktop/mobile client with cloud and local AI model integration.</p>
+          </div>
+          <div class="app-card">
+            <h4>✅ <a href="https://u.tools/plugins/detail/ChatGPT.%E5%A5%BD%E5%8F%8B/" target="_blank">ChatGPT Friends Plugin (uTools)</a></h4>
+            <p>Desktop AI chat tool supporting custom roles, multi-model, multi-session.</p>
+          </div>
+          <div class="app-card">
+            <h4>✅ <a href="https://github.com/Yidadaa/ChatGPT-Next-Web" target="_blank">ChatGPT-Next-Web</a></h4>
+            <p>Open-source web front-end supporting API key and multi-user use.</p>
+          </div>
+          <div class="app-card">
+            <h4>✅ <a href="https://github.com/lobehub/lobe-chat" target="_blank">LobeChat</a></h4>
+            <p>Web-based AI chat framework supporting vision, speech, and multi-model interaction.</p>
+          </div>
+          <div class="app-card">
+            <h4>✅ <a href="https://botgem.com/" target="_blank">BotGem</a></h4>
+            <p>Mobile-first chat assistant with voice and AI friends.</p>
+          </div>
+          <div class="app-card">
+            <h4>✅ <a href="https://github.com/Bin-Huang/chatbox" target="_blank">ChatBox</a></h4>
+            <p>Multi-platform AI chat client with a modern interface.</p>
+          </div>
+          <div class="app-card">
+            <h4>✅ <a href="https://github.com/labring/FastGPT" target="_blank">FastGPT</a></h4>
+            <p>Knowledge base + visual workflow for internal training or customer service.</p>
+          </div>
+          <div class="app-card">
+            <h4>✅ <a href="https://github.com/Mintplex-Labs/anything-llm" target="_blank">AnythingLLM</a></h4>
+            <p>Privacy-focused local LLM deployment with plugin support.</p>
+          </div>
+        </div>
+      </details>
+    </div>
+    
+    <div class="section">
+      <h2>📖 How to Use</h2>
+      <ol class="usage-steps">
+        <li>🔑 <strong>Get API Key</strong>: Register on the target platform and find it in your dashboard</li>
+        <li>⚙ <strong>Set Endpoint</strong>: Add API URL into the supported app</li>
+        <li>🤖 <strong>Choose Model</strong>: Pick the model based on platform support</li>
+        <li>📊 <strong>Monitor Usage</strong>: Use in-app limits to track API usage</li>
+      </ol>
+    </div>
+    
+    <div class="section">
+      <h2>🙌 Contribution Guide</h2>
+      <p>We welcome:</p>
+      <ul style="margin-left: 20px; margin-top: 10px;">
+        <li>✨ New API platforms (must be stable ≥ 3 days)</li>
+        <li>🛠️ Usage tutorials (screenshots, screen recordings)</li>
+        <li>🧪 Automated scripts (detect dead platforms)</li>
+        <li>🌍 Translations (English, Japanese, Korean, etc.)</li>
+      </ul>
+      <p style="margin-top: 15px;">💡 PRs and issues are welcome!</p>
+    </div>
+    
+    <div class="section">
+      <h2>❌ Inactive Platforms</h2>
+      <details>
+        <summary>📛 Click to expand</summary>
+        <table style="width: 100%; margin-top: 15px;">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Link</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>464888</td>
+              <td><a href="https://api.464888.xyz" target="_blank">api.464888.xyz</a></td>
+              <td>❌ Unavailable</td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="margin-top: 10px;">💡 Found an inactive platform? Submit an issue!</p>
+      </details>
+    </div>
+    
+    <div class="section">
+      <h2>⚖️ Disclaimer</h2>
+      <ul style="margin-left: 20px;">
+        <li>We do not store API keys or provide proxy services.</li>
+        <li>All platforms listed are from the public internet.</li>
+        <li>Use at your own risk. We are not liable for any losses.</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <h2>🙏 Special Thanks</h2>
+      <p>Many thanks to <strong>zenmux</strong> for providing API platform support!<br>
+      <a href="https://zenmux.ai/invite/U1QU1H" target="_blank">Register now and use invite code</a></p>
+      
+      <p style="margin-top: 15px;">Many thanks to <strong>chat01</strong> for providing service support!<br>
+      <a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">Visit chat01 and use referral code</a></p>
+      
+      <p style="margin-top: 15px;">
+        <a href="https://dartnode.com" target="_blank">
+          <img src="https://dartnode.com/branding/DN-Open-Source-sm.png" alt="Powered by DartNode">
+        </a>
+      </p>
+    </div>
+    
+    <footer>
+      <p style="margin-bottom: 15px;">
+        <a href="https://star-history.com/#TechnologyStar/Openai-Claude-Deepseek-API-provider&Date" target="_blank">
+          <img src="https://api.star-history.com/svg?repos=TechnologyStar/Openai-Claude-Deepseek-API-provider&type=Date" alt="Star History" style="max-width: 100%; height: auto;">
+        </a>
+      </p>
+      <p>Made with ❤️ by <a href="https://github.com/TechnologyStar" target="_blank">TechnologyStar</a></p>
+      <p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+        <a href="https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider" target="_blank">GitHub Repository</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
