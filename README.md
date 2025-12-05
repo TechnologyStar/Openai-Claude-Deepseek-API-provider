@@ -217,6 +217,26 @@
     <tr><td>58</td><td>Groq Cloud</td><td><a href="https://groq.com/groqcloud" target="_blank">https://groq.com/groqcloud</a></td><td>🔓🎉🌎</td><td>可申请免费API Key，OpenAI兼容端点，推理速度极快</td></tr>
     <tr><td>59</td><td>Cerebras Inference</td><td><a href="https://inference.cerebras.ai" target="_blank">https://inference.cerebras.ai</a></td><td>🔓🎉🌎🚀</td><td>开发者每日享1 M免费tokens，LLM推理可达450 t/s+</td></tr>
     <tr><td>60</td><td>无问芯穹 GenStudio</td><td><a href="https://cloud.infini-ai.com/genstudio" target="_blank">https://cloud.infini-ai.com/genstudio</a></td><td>🆓🎉</td><td>DeepSeek R1/V3满血版免费Token，无需邀请码</td></tr>
+    <tr><td>61</td><td>PH8 大模型MaaS平台</td><td><a href="https://ph8.co" target="_blank">https://ph8.co</a></td><td>💰🎉✨✌💪</td><td>面向开发者的大模型聚合/MaaS 平台，支持 GPT、Claude、Gemini、DeepSeek、文心一言等国内外主流模型，提供 OpenAI 兼容的 chat/completions 接口、Web 控制台和文档社区，可用于文本、图像、视频等多模态推理，并支持按量计费与企业级私有化部署。</td></tr>
+
+<tr><td>62</td><td>Cloudflare AI Gateway</td><td><a href="https://www.cloudflare.com/developer-platform/products/ai-gateway/" target="_blank">https://www.cloudflare.com</a></td><td>💰🎉✨✌💪</td><td>Cloudflare 提供的 AI 流量网关产品，可作为多家大模型/AI 服务的统一出口，提供请求路由、限流、缓存、重试、统计和日志等能力，帮助企业在一个入口下监控各家模型的调用量、Token 成本和错误率，并结合 Cloudflare 现有安全与网络能力实现统一治理。</td></tr>
+
+<tr><td>63</td><td>ocoolAI API 站</td><td><a href="https://one.ocoolai.com" target="_blank">https://one.ocoolai.com</a></td><td>💰🎉✨✌💪</td><td>全球 AI 一站集成平台，提供完全兼容 OpenAI 的 API 接口和详细对接文档，支持数百种大模型接入（对话、翻译、自动化、绘画等），另有独立的 ocool.chat 镜像站提供对话/绘画/音乐/视频/AIPPT 等前端面板，并设有学生公益扶持计划与扫码订阅通知。</td></tr>
+
+<tr><td>64</td><td>TokenFlux</td><td><a href="https://tokenflux.ai" target="_blank">https://tokenflux.ai</a></td><td>💰🎉✨✌💪</td><td>统一 AI API 网关，为开发者提供一个端点接入多家主流大模型和约 600 个 MCP 服务器，可做聊天补全、Embedding、图像生成等，支持 OpenAI 风格接口、流式输出、统一模型目录与价格元数据，以及状态页和仪表盘，用于构建与部署大规模 AI Agent 和 RAG 应用。</td></tr>
+
+<tr><td>65</td><td>302.AI</td><td><a href="https://302.ai" target="_blank">https://302.ai</a></td><td>💰🎉✨✌💪</td><td>按量计费的企业级 AI 应用与资源平台，被官方比喻为“AI 超市”，聚合聊天、绘图、知识库、工具市场等 50 万+ AI 应用，提供图像/视频/音频/文本等多类模型 API，既有在线即用的 Chat-bot、App-bot、Drawing-bot，也支持私有化部署和开源客户端，适合个人到企业全场景使用。</td></tr>
+
+<tr><td>66</td><td>MegaLLM</td><td><a href="https://megallm.io" target="_blank">https://megallm.io</a></td><td>💰🎉✨✌💪</td><td>面向开发者的统一 AI Gateway，通过一个 API 和 CLI 连接 70+ 大语言模型（如 GPT、Claude、Gemini 等），提供 OpenAI/Anthropic 兼容接口、模型目录与价格对比、全局 15 个边缘节点加速、企业级加密与隐私隔离，并有 Dev 订阅计划和详细开发者文档、Dashboard 与 Discord 社区。</td></tr>
+
+<tr><td>67</td><td>AI/ML API（AIMLAPI）</td><td><a href="https://aimlapi.com" target="_blank">https://aimlapi.com</a></td><td>💰🎉✨✌💪</td><td>单一 API 访问 400+ AI 模型的平台，覆盖 GPT、Claude、Gemini、Grok、Stable Diffusion 等主流模型，提供聊天、代码生成、图像/视频/音频生成、语音、OCR、搜索、Embedding、内容安全等任务，主打低延迟高扩展性，官方宣称成本可比直接用 OpenAI 节省至多约 80%，并提供 Playground、文档与免费试用额度。</td></tr>
+
+<tr><td>68</td><td>NagaAI</td><td><a href="https://naga.ac" target="_blank">https://naga.ac</a></td><td>💰🎉✨✌💪</td><td>定位为 Unified AI Aggregator，通过一个 OpenAI 兼容 API 聚合 OpenAI、Anthropic、Google、Meta 等多家模型供应商，提供模型广场、快速上手指南（5 分钟完成首调）、使用与消费监控、API Key 管理等能力，支持结构化输出、工具调用、图像输入与联网搜索等高级特性，适合需要多家模型统一管理与降本增效的团队。</td></tr>
+
+<tr><td>69</td><td>Groq / GroqCloud</td><td><a href="https://groq.com" target="_blank">https://groq.com</a></td><td>💰🎉✨✌💪</td><td>Groq 是专注推理的硬件与云服务提供商，其自研 LPU™ 推理引擎主打极高吞吐和低成本，GroqCloud 为开发者提供在线 Chat 与 API，托管包括 GPT-OSS、Llama 系列、Qwen3 等开放模型，按 Tokens-as-a-Service 收费，适合构建对时延敏感、需要大规模推理吞吐的应用。</td></tr>
+
+<tr><td>70</td><td>Eden AI</td><td><a href="https://www.edenai.co" target="_blank">https://www.edenai.co</a></td><td>💰🎉✨✌💪</td><td>统一 AI API 与全栈 AI 平台，通过一套接口聚合多家第三方 AI 提供商，涵盖文生文、机器翻译、语音识别/合成、图像与视频处理、OCR、文档解析等任务，提供模型目录与功能库、丰富集成（Make、Bubble、LangChain、Zapier 等）、面向开发者和 SaaS 的编排与监控方案，并可定制专属企业 AI API。</td></tr>
+
     
   </tbody>
 </table>
