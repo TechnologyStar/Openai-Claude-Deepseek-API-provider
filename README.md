@@ -1,10 +1,9 @@
-# 🌐 Openai / Claude / Deepseek API Provider
+# 🌐 OpenAI / Claude / DeepSeek API Provider
 
 [![Last Commit](https://img.shields.io/github/last-commit/TechnologyStar/Openai-Claude-Deepseek-API-provider)](https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider)
 [![License](https://img.shields.io/github/license/TechnologyStar/Openai-Claude-Deepseek-API-provider)](https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider/blob/main/LICENSE)
 
-
-> 🏗️ A curated list of third-party platforms providing **OpenAI / Claude / DeepSeek** APIs for learning, research, and non-commercial use.
+> 🏗️ 精选第三方 **OpenAI / Claude / DeepSeek / Gemini 等大模型 API** 提供方导航，方便用于学习、研究与非商业用途。
 
 <p align="center">
   <a href="README.md" title="中文"><img src="https://img.shields.io/badge/🇨🇳 中文-阅读-blue?style=flat-square" alt="中文版"/></a>
@@ -13,17 +12,21 @@
   <a href="fr.md" title="Français"><img src="https://img.shields.io/badge/🇫🇷 Français-Lire-blue?style=flat-square" alt="Version Française"/></a>
 </p>
 
-> 🏗️ 精选的第三方平台列表，提供 **OpenAI / Claude / DeepSeek** API，供学习、研究和非商业使用。
-
 ---
 
-> ⚠️ **使用说明**
+> ⚠️ **使用与合规说明（必读）**
 >
-> 本项目为免费公益项目，严格禁止任何违法用途。
->**本项目不会收录一些AI论坛内部的站点，如有误收录，请联系删除，在评估后将会对部分误收录网站进行赔偿**
-> * 遵守 [OpenAI 使用条款](https://openai.com/policies/terms-of-use)
-> * 遵守 [《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)，**请勿对中国公众提供未经备案的生成式AI服务**。
-> * 官网 [Openai / Claude / Deepseek API Provider](https://d706445b-7658-4708-bb08-bac6c5a775ad-00-2z2hsdckl4fie.riker.replit.dev/)
+> 本项目为 **免费开源导航 / 公益整理项目**，仅用于技术研究与学习交流，**严禁任何违法违规用途**。
+>
+> - 本项目 **不提供任何代理、转发或 Key 生成服务**，仅做站点信息收录与聚合展示；
+> - **不会收录封闭式“内部 AI 论坛 / 暗网类站点”**，如有误收录，请提交 Issue 或联系删除；
+> - 一旦确认误收录，对造成不良影响的平台，将在评估后予以适当赔偿与公开说明；
+> - 使用任何第三方平台前，请务必自行仔细阅读其《用户协议》《隐私政策》等；
+> - 请严格遵守各官方条款：
+>   - 遵守 [OpenAI 使用条款](https://openai.com/policies/terms-of-use)
+>   - 遵守 [《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)，**请勿对中国公众提供未经备案的生成式 AI 服务**。
+>
+> 🏠 官网导航页：**[OpenAI / Claude / DeepSeek API Provider](https://d706445b-7658-4708-bb08-bac6c5a775ad-00-2z2hsdckl4fie.riker.replit.dev/)**
 
 ---
 
@@ -39,20 +42,47 @@
 
 ## 🎁 特色标签说明
 
-| 标签 | 含义                 |
-| -- | ------------------ |
-| 🆓 | 完全免费               |
-| 🔓 | 有免费额度              |
-| 💰 | 需要充值               |
-| 💪 | Claude 最新支持        |
-| ✌  | OpenAI 最新支持        |
-| 🎉 | 其他模型支持（如 DeepSeek） |
-| 🌎 | 需要国际网络             |
-| 🎁 | 充值赠送额度优惠           |
-| 🚀 | 支持高并发              |
-| 😆 | 每日签到领余额            |
-| 🚩 | 已备案平台              |
-| ✔  | 已验证真实性             |
+### 💰 计费 & 额度
+
+| 标签 | 含义                             |
+| ---- | -------------------------------- |
+| ❤️   | 公益站点（纯公益，无商业收费行为） |
+| 🆓   | 免费站点（可零成本使用，通常也提供充值 / 赞助通道） |
+| 🎁   | **有 ≥ 5 美刀等值免费额度**（含活动赠送 / 新人礼等） |
+| 💰   | 原价充值 / 商业向平台（价格接近或等同官方） |
+
+### 🤖 模型支持
+
+| 标签 | 含义                                     |
+| ---- | ---------------------------------------- |
+| 💪   | 支持 **Claude 最新主力模型**            |
+| ✌   | 支持 **OpenAI 最新主力模型**（如 GPT-4.1 / 4o 等） |
+| ✨   | 支持 **Gemini 系列模型**                 |
+| 🎉   | 支持其他主流模型（如 DeepSeek、Llama、Qwen、国内模型等） |
+| 🏓   | 对话专用平台（以“聊天”为主，API 能力可能有限或需单独开通） |
+
+### 🎯 使用特性
+
+| 标签 | 含义                             |
+| ---- | -------------------------------- |
+| 🏷️   | 一元一刀（计费接近 1 元 / 1 美刀） |
+| 😆   | 可每日签到领余额 / 任务送代币      |
+| ✉️   | 含有邀请码 / 邀请奖励（本表中不超过 3 个站点打此标） |
+
+### 🌐 网络与合规
+
+| 标签 | 含义                     |
+| ---- | ------------------------ |
+| 🌎   | **需要国际网络** 才能稳定访问 |
+| 🚩   | 已备案平台（中国境内有备案信息） |
+
+### ⚙️ 性能与质量
+
+| 标签 | 含义                                  |
+| ---- | ------------------------------------- |
+| 🚀   | 支持高并发（适合批量请求 / 多用户场景） |
+| ⚡   | 低延迟（官方或实测延迟 ≲ 300ms）        |
+| 🎖️   | 推荐级优质平台（人工主观评价，**全表不超过 5 个**） |
 
 ---
 
