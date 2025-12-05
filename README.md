@@ -90,38 +90,62 @@
 
 <details>
 <summary>📦 点击展开查看兼容应用列表</summary>
-
+  
 ### ✅ [Cherry Studio](https://github.com/CherryHQ/cherry-studio)
-
-> 跨平台桌面端 + 移动端，集成主流 AI 云服务 + 本地模型。
+> **跨平台桌面端 + 移动端，集成主流 AI 云服务 + 本地模型。**  
+> - **平台支持**：Windows、macOS、Linux、iOS、Android  
+> - **模型集成**：OpenAI、Anthropic、本地模型（Ollama、LM Studio 等）  
+> - **核心功能**：多会话管理、自定义提示词、插件扩展  
+> - **特色亮点**：统一的界面管理不同模型，适合需要混合云端和本地推理的用户  
 
 ### ✅ [ChatGPT 好友插件 (uTools)](https://u.tools/plugins/detail/ChatGPT.%E5%A5%BD%E5%8F%8B/)
-
-> 桌面端智能聊天插件，支持角色设定、多模型、多会话管理。
+> **桌面端智能聊天插件，支持角色设定、多模型、多会话管理。**  
+> - **平台支持**：Windows、macOS、Linux（需安装 uTools 平台）  
+> - **模型集成**：OpenAI、文心一言、通义千问、DeepSeek 等  
+> - **核心功能**：全局快捷键呼出、角色预设、对话历史保存  
+> - **特色亮点**：轻量级插件形式，适合追求效率的桌面用户  
 
 ### ✅ [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
-
-> 开源网页端 ChatGPT 前端，支持 API Key 与多用户协作。
+> **开源网页端 ChatGPT 前端，支持 API Key 与多用户协作。**  
+> - **部署方式**：Vercel、Docker、本地部署  
+> - **模型集成**：OpenAI、Azure OpenAI、自定义代理  
+> - **核心功能**：多会话、对话分享、Markdown 渲染、多语言  
+> - **特色亮点**：界面简洁、部署简单，适合个人或团队快速搭建  
 
 ### ✅ [LobeChat](https://github.com/lobehub/lobe-chat)
-
-> 支持视觉、语音交互和多模型切换，网页端 AI 会话框架。
+> **支持视觉、语音交互和多模型切换，网页端 AI 会话框架。**  
+> - **部署方式**：Vercel、Docker、本地部署  
+> - **模型集成**：OpenAI、Claude、Gemini、本地模型（Ollama 等）  
+> - **核心功能**：语音输入/输出、文件上传解析、插件市场  
+> - **特色亮点**：现代化 UI、丰富的交互方式，适合多模态需求用户  
 
 ### ✅ [BotGem](https://botgem.com/)
-
-> 移动端优先设计，支持语音交流与 AI 好友系统。
+> **移动端优先设计，支持语音交流与 AI 好友系统。**  
+> - **平台支持**：iOS、Android  
+> - **模型集成**：OpenAI、自定义 API  
+> - **核心功能**：语音对话、角色扮演、个性化 AI 助手  
+> - **特色亮点**：移动端优化体验，适合日常语音交互场景  
 
 ### ✅ [ChatBox](https://github.com/Bin-Huang/chatbox)
-
-> 支持 iOS、Android 和桌面端，界面现代，功能完整。
+> **支持 iOS、Android 和桌面端，界面现代，功能完整。**  
+> - **平台支持**：Windows、macOS、Linux、iOS、Android  
+> - **模型集成**：OpenAI、自定义 API  
+> - **核心功能**：多会话、主题切换、API 配置管理  
+> - **特色亮点**：全平台覆盖，界面美观，适合跨设备用户  
 
 ### ✅ [FastGPT](https://github.com/labring/FastGPT)
-
-> 知识库 + 工作流集成，企业内训/客服场景首选。
+> **知识库 + 工作流集成，企业内训/客服场景首选。**  
+> - **部署方式**：Docker、云服务  
+> - **模型集成**：OpenAI、本地模型、向量数据库  
+> - **核心功能**：知识库问答、工作流编排、多模型路由  
+> - **特色亮点**：企业级应用，适合构建定制化 AI 助手  
 
 ### ✅ [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
-
-> 支持本地部署与插件扩展，适合对数据隐私有要求的用户。
+> **支持本地部署与插件扩展，适合对数据隐私有要求的用户。**  
+> - **部署方式**：Docker、本地安装  
+> - **模型集成**：OpenAI、本地模型（Ollama、Llama.cpp）  
+> - **核心功能**：文档上传与分析、多用户管理、插件系统  
+> - **特色亮点**：隐私优先、支持私有化部署，适合企业或敏感数据场景  
 
 </details>
 
