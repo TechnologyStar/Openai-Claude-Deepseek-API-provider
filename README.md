@@ -158,16 +158,26 @@
     <tr><th>序号</th><th>网站</th><th>链接</th><th>标签</th><th>备注</th></tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>chat01（推荐，含邀请码）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🏓🎖️🔓✌💰✉️</td><td>支持Pro，解决降智问题，每天免费2积分，聊天+API同站</td></tr>
-    <tr><td>2</td><td>硅基流动（企业级）</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓🎉🚀🚩✔</td><td>华为云昇腾服务，注册送14元</td></tr>
-    <tr><td>3</td><td>zenmux(推荐，含免费gemini3及画图)</td><td><a href="https://zenmux.ai/invite/U1QU1H" target="_blank">https://zenmux.ai</a></td><td>🎖️🔓✌💰🚀</td><td>免费gemini3pro,全球首个支持赔付的大模型聚合，原价充值平台，大模型幻觉必赔</td></tr>
-    <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉💰</td><td>新用户注册送0.3 $额度，聚合Claude/Grok/OpenAI等多模型</td></tr>
-    <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>官方费率，稳定直连，支持OpenAI与Claude接口</td></tr>
-    <tr><td>6</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>【全公益网站】余额每日清零</td></tr>
-    <tr><td>7</td><td>inscopilot(推荐)</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>✌🎉😆🚀</td><td>赠$5，稳定便宜，支持cc</td></tr>
-    <tr><td>8</td><td>V3 API（混合版）</td><td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td><td>🚀🔓💪🎉✌</td><td>赠$0.2，高并发，3折充值，超多模型</td></tr>
-    <tr><td>9</td><td>V3 API（官转版）</td><td><a href="https://gf.gpt.ge" target="_blank">https://gf.gpt.ge</a></td><td>🚀🌹🔓💪</td><td>赠$0.2，高并发，6折充值</td></tr>
-    <tr><td>10</td><td>openai-hk</td><td><a href="https://openai-hk.com" target="_blank">https://openai-hk.com</a></td><td>🆓🔓🎉✌💪🚀</td><td>赠1元，超高并发，含GPT-3.5公益版</td></tr>
+    <tr><td>1</td><td>chat01（推荐，含邀请码）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🏓🎖️🔓✌💰✉️</td><td>提供 GPT-4o / o1 系列等高阶模型的聊天与 API 双用平台，注册赠送每日免费积分，可长期零成本试用。支持持续上下文、文件对话、代码执行等能力，界面轻快，延迟低，兼具稳定与性价比，适合个人和开发者作为主力 AI 工具。</td></tr>
+
+<tr><td>2</td><td>硅基流动（企业级）</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓🎉🚀🚩✔</td><td>企业级 AI 模型推理平台，基于国产算力生态，提供千亿级模型推理、向量检索、Embedding、多模态等能力。支持企业账号体系、监控、计费、权限隔离等，适合对稳定性、数据安全和合规要求较高的商业项目。注册即送体验额度。</td></tr>
+
+<tr><td>3</td><td>zenmux（推荐，含免费 gemini3 及画图）</td><td><a href="https://zenmux.ai/invite/U1QU1H" target="_blank">https://zenmux.ai</a></td><td>🎖️🔓✌💰🚀</td><td>多模型聚合服务，提供免费 Gemini 3 Pro、图像生成与各类文本模型。平台支持“模型赔付”机制，若出现严重幻觉可获得补偿，是少数支持“模型 SLA”的平台之一。充值为官方原价模式，适合追求高模型质量与稳定性的用户。</td></tr>
+
+<tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉💰</td><td>高并发聚合 API，提供 Claude、Grok、OpenAI、Google AI 等主流模型，覆盖聊天、推理、代码、搜索等多类型任务。新用户享有体验额度，价格透明且稳定性较高，并支持区域路由、密钥管理、用量统计，适合多场景开发者应用。</td></tr>
+
+<tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>以接近官方的费率和稳定性提供 OpenAI 与 Claude 的标准兼容 API。主打“官方直连体验”与高可用性，延迟较低，适合生产环境调用。支持 token 管理、审计与用量控制，适合希望在国内获得高品质 OpenAI 接入的用户。</td></tr>
+
+<tr><td>6</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>公益性质平台，免费开放模型 API，额度每日清零，适合体验模型或进行轻量级调用测试。无付费机制，主打开放共享，响应速度中等，适合学生、自学者及不要求长期稳定性的使用场景。</td></tr>
+
+<tr><td>7</td><td>inscopilot（推荐）</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>✌🎉😆🚀</td><td>多模型中转 API 服务，注册即送 1 美元，新用户可直接体验 Claude、GPT、Gemini 等主流模型。价格相对低廉并支持信用卡，延迟较低，稳定性良好，适合开发者和需要长期 API 调用的项目。</td></tr>
+
+<tr><td>8</td><td>V3 API（混合版）</td><td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td><td>🚀🔓💪🎉✌</td><td>集成多种大模型，提供超高并发支持及稳定路由机制。新用户赠送启动额度，并提供折扣充值。适合对速度、稳定性与模型多样性有较高需求的应用，如 AI 助手、Agent 系统或大规模部署。</td></tr>
+
+<tr><td>9</td><td>V3 API（官转版）</td><td><a href="https://gf.gpt.ge" target="_blank">https://gf.gpt.ge</a></td><td>🚀🌹🔓💪</td><td>官方中转路线，具备更稳定的调用链与地域就近加速能力。支持高并发、大规模调用，并具有较低波动率，适用于需要长期可靠运行的 AI 产品或商业场景。</td></tr>
+
+<tr><td>10</td><td>openai-hk</td><td><a href="https://openai-hk.com" target="_blank">https://openai-hk.com</a></td><td>🆓🔓🎉✌💪🚀</td><td>提供高并发的 OpenAI 兼容 API，包括公益版 GPT-3.5 与付费高阶模型。注册赠送体验金额，适合测试、课程实验与生产环境调用，特点是连接速度快、稳定性好。</td></tr>
+
     <tr><td>11</td><td>ChatGPT API 水龙头</td><td><a href="https://faucet.openkey.cloud" target="_blank">https://faucet.openkey.cloud</a></td><td>🆓</td><td>免费$1额度，3天有效期</td></tr>
     <tr><td>12</td><td>公益免费的ChatGPT API</td><td><a href="https://github.com/popjane/free_chatgpt_api" target="_blank">GitHub</a></td><td>🆓</td><td>公益免费</td></tr>
     <tr><td>13</td><td>GPT-API-free</td><td><a href="https://github.com/chuyuewei/ChatGPT-API" target="_blank">GitHub</a></td><td>🆓💪</td><td>支持GPT-4，每天3次</td></tr>
