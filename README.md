@@ -238,6 +238,28 @@
 
 <tr><td>70</td><td>Eden AI</td><td><a href="https://www.edenai.co" target="_blank">https://www.edenai.co</a></td><td>💰🎉✨✌💪</td><td>统一 AI API 与全栈 AI 平台，通过一套接口聚合多家第三方 AI 提供商，涵盖文生文、机器翻译、语音识别/合成、图像与视频处理、OCR、文档解析等任务，提供模型目录与功能库、丰富集成（Make、Bubble、LangChain、Zapier 等）、面向开发者和 SaaS 的编排与监控方案，并可定制专属企业 AI API。</td></tr>
 
+<tr><td>71</td><td>Ikuncode</td><td><a href="https://api.ikuncode.cc" target="_blank">https://api.ikuncode.cc</a></td><td>🏷️💰✌💪</td><td>采用 New API 的统一网关，可聚合多家模型，支持 key 二次分发与 Docker 部署，适合自建中转或分发。</td></tr>
+<tr><td>72</td><td>Duckcoding</td><td><a href="https://duckcoding.com" target="_blank">https://duckcoding.com</a></td><td>🏷️✨✌💪</td><td>提供 Claude Code / Codex / Gemini CLI 的令牌与分组管理，便于多中转源切换。</td></tr>
+<tr><td>73</td><td>Right Code</td><td><a href="https://right.codes" target="_blank">https://right.codes</a></td><td>🏷️✨✌💪</td><td>面向团队/企业的 AI API 平台，支持多模型统一接入、监控、限流、费用管控等。</td></tr>
+<tr><td>74</td><td>GalaxyCode</td><td><a href="https://nf.video" target="_blank">https://nf.video</a></td><td>🏷️✨</td><td>品牌主页入口，具体模型与套餐在内部控制台查看。</td></tr>
+<tr><td>75</td><td>YesCode</td><td><a href="https://co.yes.vg" target="_blank">https://co.yes.vg</a></td><td>🏷️💰✌💪</td><td>Claude API 路由与计量平台，支持用户管理、配额、子账号与调用统计。</td></tr>
+<tr><td>76</td><td>PackyAPI（PackyCode）</td><td><a href="https://www.packyapi.com" target="_blank">https://www.packyapi.com</a></td><td>🍹🏷️💰🎉✨💪</td><td>大型 AI API 聚合平台，一站式接入 Claude/GPT/Gemini 等，提供容灾、监控、限流、SDK 与 Playground。</td></tr>
+<tr><td>77</td><td>SSSAiCode</td><td><a href="https://www.sssaicode.com" target="_blank">https://www.sssaicode.com</a></td><td>🏷️✨💪</td><td>提供 Claude/Codex 代理封装及多语言 SDK，面向开发者集成场景。</td></tr>
+<tr><td>78</td><td>Cubence</td><td><a href="https://cubence.com" target="_blank">https://cubence.com</a></td><td>🏷️✨✌💪</td><td>企业级 AI API Gateway，适配 Claude Code & Codex，具备监控与用量分析。</td></tr>
+<tr><td>79</td><td>EasyChat AI</td><td><a href="https://easychat.site" target="_blank">https://easychat.site</a></td><td>🍹🎉✨✌</td><td>桌面端 AI 工具，支持自定义 API key 调用多家模型，本身不做 API 中转业务。</td></tr>
+<tr><td>80</td><td>Clark</td><td><a href="https://clarkf.site" target="_blank">https://clarkf.site</a></td><td>✨✌</td><td>工具说明与入口站点，不提供独立 API 中转服务。</td></tr>
+<tr><td>81</td><td>FoxCode</td><td><a href="https://foxcode.rjj.cc" target="_blank">https://foxcode.rjj.cc</a></td><td>🍹🎉✨✌💪</td><td>AI 编程平台，支持代码生成与多语言框架，提供试用额度。</td></tr>
+<tr><td>82</td><td>AICodeMirror</td><td><a href="https://www.aicodemirror.com" target="_blank">https://www.aicodemirror.com</a></td><td>🍹🏷️🎉✨✌💪</td><td>支持 Claude Code / Codex / Gemini CLI 的综合平台，提供免费积分与多档订阅。</td></tr>
+<tr><td>83</td><td>MikuCode</td><td><a href="https://mikucode.xyz" target="_blank">https://mikucode.xyz</a></td><td>🍹🏷️💰✨✌💪</td><td>统一 LLM API Gateway，支持多个供应商与 30+ 模型提供商，高性价比可替代官方调用。</td></tr>
+<tr><td>84</td><td>CodeCli</td><td><a href="https://code-cli.cn" target="_blank">https://code-cli.cn</a></td><td>🏷️✨</td><td>CLI + AI 集成相关工具入口，具体 API 服务需登录查看。</td></tr>
+<tr><td>85</td><td>Xyai</td><td><a href="https://new.xychatai.com" target="_blank">https://new.xychatai.com</a></td><td>🏷️✨✌</td><td>含 Vibe-Code / Claude Code 模块，可在其界面调用模型。</td></tr>
+<tr><td>86</td><td>AIMZ</td><td><a href="https://mzlone.top" target="_blank">https://mzlone.top</a></td><td>🏷️💰✨</td><td>基于 New API 的网关实例，可统一管理与调用多模型，适合熟悉中转架构的用户。</td></tr>
+<tr><td>87</td><td>Privnode</td><td><a href="https://privnode.com" target="_blank">https://privnode.com</a></td><td>🍹🏷️💰🎉✨💪</td><td>主打低成本接入 Claude Code/Codex，提供多档套餐与活动折扣。</td></tr>
+<tr><td>88</td><td>JikeAI</td><td><a href="https://magic666.top" target="_blank">https://magic666.top</a></td><td>🏷️💰✨💪</td><td>第三方 Claude Code 中转服务，支持标准配置模板与按量计费。</td></tr>
+<tr><td>89</td><td>Uucode</td><td><a href="https://www.uucode.org" target="_blank">https://www.uucode.org</a></td><td>🍹🏷️💰🎉✨💪</td><td>提供 Claude Code/Codex 专用 BASE_URL，含活动与优惠，适合预算敏感用户。</td></tr>
+<tr><td>90</td><td>AnyRouter</td><td><a href="https://anyrouter.top" target="_blank">https://anyrouter.top</a></td><td>🍹🏷️🎉✨✌</td><td>Claude Code 中转方案之一，曾提供一次性优惠额度，适合轻量开发者。</td></tr>
+<tr><td>91</td><td>88code</td><td><a href="https://www.88code.org" target="_blank">https://www.88code.org</a></td><td>🍹🏷️💰🎉✨💪</td><td>“平价 Claude Code 中转站”，含免费额度与按量计费，广泛用于对比测试。</td></tr>
+
     
   </tbody>
 </table>
