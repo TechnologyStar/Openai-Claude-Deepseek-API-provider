@@ -150,37 +150,7 @@
 
 </details>
 
-<style>
-  .api-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 14px;
-  }
-  .api-table th,
-  .api-table td {
-    border: 1px solid #ddd;
-    padding: 6px 8px;
-    text-align: left;
-    vertical-align: top;
-  }
-  .api-table thead {
-    background: #f5f5f5;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
-  .api-table a {
-    color: #007bff;
-    text-decoration: none;
-    word-break: break-all;
-  }
-  .api-table a:hover {
-    text-decoration: underline;
-  }
-  .api-table tbody tr:nth-child(odd) {
-    background: #fcfcfc;
-  }
-</style>
+
 
 <table class="api-table">
   <thead>
