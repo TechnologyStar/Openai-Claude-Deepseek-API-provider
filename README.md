@@ -60,6 +60,7 @@
 | ✨   | 支持 **Gemini 系列模型**                 |
 | 🎉   | 支持其他主流模型（如 DeepSeek、Llama、Qwen、国内模型等） |
 | 🏓   | 对话专用平台（以“聊天”为主，API 能力可能有限或需单独开通） |
+| 🍹  |  claudecode站点      |
 
 ### 🎯 使用特性
 
@@ -157,14 +158,14 @@
     <tr><th>序号</th><th>网站</th><th>链接</th><th>标签</th><th>备注</th></tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>chat01（推荐，含邀请码）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🔓✌🎁💰✔</td><td>支持Pro，解决降智问题，每天免费2积分，聊天+API同站</td></tr>
+    <tr><td>1</td><td>chat01（推荐，含邀请码）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🏓🎖️🔓✌💰✉️</td><td>支持Pro，解决降智问题，每天免费2积分，聊天+API同站</td></tr>
     <tr><td>2</td><td>硅基流动（企业级）</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓🎉🚀🚩✔</td><td>华为云昇腾服务，注册送14元</td></tr>
-    <tr><td>3</td><td>zenmux(推荐，含免费gemini3及画图)</td><td><a href="https://zenmux.ai/invite/U1QU1H" target="_blank">https://zenmux.ai</a></td><td>🔓✌🎁💰</td><td>免费gemini3pro,全球首个支持赔付的大模型聚合</td></tr>
-    <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉🎁💰</td><td>新用户注册送0.3 $额度，聚合Claude/Grok/OpenAI等多模型</td></tr>
+    <tr><td>3</td><td>zenmux(推荐，含免费gemini3及画图)</td><td><a href="https://zenmux.ai/invite/U1QU1H" target="_blank">https://zenmux.ai</a></td><td>🎖️🔓✌💰🚀</td><td>免费gemini3pro,全球首个支持赔付的大模型聚合</td></tr>
+    <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉💰</td><td>新用户注册送0.3 $额度，聚合Claude/Grok/OpenAI等多模型</td></tr>
     <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>官方费率，稳定直连，支持OpenAI与Claude接口</td></tr>
     <tr><td>6</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>【全公益网站】余额每日清零</td></tr>
     <tr><td>7</td><td>inscopilot(推荐)</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>✌🎉😆🚀</td><td>赠$5，稳定便宜，支持cc</td></tr>
-    <tr><td>8</td><td>V3 API（混合版）</td><td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td><td>🚀🔓💪🎁🎉✌</td><td>赠$0.2，高并发，3折充值，超多模型</td></tr>
+    <tr><td>8</td><td>V3 API（混合版）</td><td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td><td>🚀🔓💪🎉✌</td><td>赠$0.2，高并发，3折充值，超多模型</td></tr>
     <tr><td>9</td><td>V3 API（官转版）</td><td><a href="https://gf.gpt.ge" target="_blank">https://gf.gpt.ge</a></td><td>🚀🌹🔓💪</td><td>赠$0.2，高并发，6折充值</td></tr>
     <tr><td>10</td><td>openai-hk</td><td><a href="https://openai-hk.com" target="_blank">https://openai-hk.com</a></td><td>🆓🔓🎉✌💪🚀</td><td>赠1元，超高并发，含GPT-3.5公益版</td></tr>
     <tr><td>11</td><td>ChatGPT API 水龙头</td><td><a href="https://faucet.openkey.cloud" target="_blank">https://faucet.openkey.cloud</a></td><td>🆓</td><td>免费$1额度，3天有效期</td></tr>
@@ -174,10 +175,10 @@
     <tr><td>15</td><td>gptgod.online</td><td><a href="https://gptgod.online" target="_blank">https://gptgod.online</a></td><td>💪✌🎁💰🎉😆</td><td>按次计费，积分额度</td></tr>
     <tr><td>16</td><td>m3.ckit.gold</td><td><a href="https://m3.ckit.gold" target="_blank">https://m3.ckit.gold</a></td><td>💰💪✌</td><td>3元/刀，注册送$0.1</td></tr>
     <tr><td>17</td><td>iaicnn</td><td><a href="https://aicnn.cn" target="_blank">https://aicnn.cn</a></td><td>💪✌🎁💰🎉</td><td>老用户支持api，目前已迁移</td></tr>
-    <tr><td>18</td><td>goapi.gptnb.ai</td><td><a href="https://goapi.gptnb.ai" target="_blank">https://goapi.gptnb.ai</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
-    <tr><td>19</td><td>api.aigc369.com</td><td><a href="https://api.aigc369.com/pricing" target="_blank">https://api.aigc369.com</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
-    <tr><td>20</td><td>api.mjdjourney.cn</td><td><a href="https://api.mjdjourney.cn" target="_blank">https://api.mjdjourney.cn</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
-    <tr><td>21</td><td>api.bltcy.ai</td><td><a href="https://api.bltcy.ai" target="_blank">https://api.bltcy.ai</a></td><td>💪✌🎁💰🎉</td><td></td></tr>
+    <tr><td>18</td><td>goapi.gptnb.ai</td><td><a href="https://goapi.gptnb.ai" target="_blank">https://goapi.gptnb.ai</a></td><td>💪✌💰🎉</td><td></td></tr>
+    <tr><td>19</td><td>api.aigc369.com</td><td><a href="https://api.aigc369.com/pricing" target="_blank">https://api.aigc369.com</a></td><td>💪✌💰🎉</td><td></td></tr>
+    <tr><td>20</td><td>api.mjdjourney.cn</td><td><a href="https://api.mjdjourney.cn" target="_blank">https://api.mjdjourney.cn</a></td><td>💪✌💰🎉</td><td></td></tr>
+    <tr><td>21</td><td>api.bltcy.ai</td><td><a href="https://api.bltcy.ai" target="_blank">https://api.bltcy.ai</a></td><td>💪✌💰🎉</td><td></td></tr>
     <tr><td>22</td><td>4Z API 中转站</td><td><a href="https://zzzzapi.com" target="_blank">https://zzzzapi.com</a></td><td>🔓✌💪🎉🚀</td><td>支持GPT-4o、Claude 3.5，新用户赠0.2额度。</td></tr>
     <tr><td>23</td><td>简易API中转站</td><td><a href="https://jeniya.top" target="_blank">https://jeniya.top</a></td><td>🔓✌💪🎉🚀</td><td>聚合多模型，国内直连无限制，注册送100元测试额度。</td></tr>
     <tr><td>24</td><td>CloseAI</td><td><a href="https://closeai-asia.com" target="_blank">https://closeai-asia.com</a></td><td>💰✌💪🎉🚀</td><td>企业级代理，支持GPT-4o、Claude 3.5，提供中文技术支持。</td></tr>
