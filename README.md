@@ -163,11 +163,11 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>chat01（推荐，含邀请码）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🏓🎖️🔓✌💰✉️</td><td>提供 GPT-4o / o1 系列等高阶模型的聊天与 API 双用平台，注册赠送每日免费积分，可长期零成本试用。支持持续上下文、文件对话、代码执行等能力，界面轻快，延迟低，兼具稳定与性价比，适合个人和开发者作为主力 AI 工具。</td></tr>
+    <tr><td>1</td><td>chat01（推荐，含邀请码）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🏓🎖️🔓✌💰✉️</td><td>提供 GPT-5、pro系列等高阶模型的聊天与 API 双用平台，注册赠送每日2免费积分，可长期零成本试用。</td></tr>
     <tr><td>2</td><td>硅基流动（企业级）</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓🎉🚀🚩✔</td><td>企业级 AI 模型推理平台，提供千亿级模型推理、向量检索、Embedding、多模态等能力。</td></tr>
     <tr><td>3</td><td>zenmux（推荐，含免费 gemini3 及画图）</td><td><a href="https://zenmux.ai/invite/U1QU1H" target="_blank">https://zenmux.ai</a></td><td>🎖️🔓✌💰🚀</td><td>多模型聚合服务，提供免费 Gemini 3 Pro、图像生成与各类文本模型。平台支持“模型赔付”机制，若出现严重幻觉可获得补偿，是少数支持“模型 SLA”的平台之一。充值为官方原价模式，适合追求高模型质量与稳定性的用户。</td></tr>
-    <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉💰</td><td>高并发聚合 API，提供 Claude、Grok、OpenAI、Google AI 等主流模型，覆盖聊天、推理、代码、搜索等多类型任务。新用户享有体验额度，价格透明且稳定性较高，并支持区域路由、密钥管理、用量统计，适合多场景开发者应用。</td></tr>
-    <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>以接近官方的费率和稳定性提供 OpenAI 与 Claude 的标准兼容 API。主打“官方直连体验”与高可用性，延迟较低，适合生产环境调用。支持 token 管理、审计与用量控制，适合希望在国内获得高品质 OpenAI 接入的用户。</td></tr>
+    <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉💰</td><td>高并发聚合 API，提供 Claude</td></tr>
+    <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>以接近官方的费率和稳定性提供 OpenAI 与 Claude 的标准兼容 API。主打“官方直连体验”与高可用性，延迟较低</td></tr>
     <tr><td>6</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>公益性质平台，免费开放模型 API，额度每日清零，适合体验模型或进行轻量级调用测试。无付费机制，主打开放共享，响应速度中等，适合学生、自学者及不要求长期稳定性的使用场景。</td></tr>
     <tr><td>7</td><td>inscopilot（推荐）</td><td><a href="https://instcopilot-api.com/register?aff=Q2Z0" target="_blank">https://instcopilot-api.com</a></td><td>✌🎉😆🚀</td><td>多模型中转 API 服务，注册即送 1 美元，新用户可直接体验 Claude等主流模型。价格相对低廉，延迟较低，稳定性良好，适合开发者和需要长期 API 调用的项目。</td></tr>
     <tr><td>8</td><td>V3 API（混合版）</td><td><a href="https://api.v3.cm" target="_blank">https://api.v3.cm</a></td><td>🚀🔓💪🎉✌</td><td>集成多种大模型，提供超高并发支持及稳定路由机制。新用户赠送启动额度，并提供折扣充值。适合对速度、稳定性与模型多样性有较高需求的应用，如 AI 助手、Agent 系统或大规模部署。</td></tr>
