@@ -184,7 +184,7 @@
     <tr><td>19</td><td>api.aigc369.com</td><td><a href="https://api.aigc369.com/pricing" target="_blank">https://api.aigc369.com/pricing</a></td><td>💪✌💰🎉</td><td></td></tr>
     <tr><td>20</td><td>api.mjdjourney.cn</td><td><a href="https://api.mjdjourney.cn" target="_blank">https://api.mjdjourney.cn</a></td><td>💪✌💰🎉</td><td></td></tr>
     <tr><td>21</td><td>api.bltcy.ai</td><td><a href="https://api.bltcy.ai" target="_blank">https://api.bltcy.ai</a></td><td>💪✌💰🎉</td><td></td></tr>
-    <tr><td>22</td><td>4Z API 中转站</td><td><a href="https://zzzzapi.com" target="_blank">https://zzzzapi.com</a></td><td>🔓✌💪🎉🚀</td><td>支持 GPT-4o、Claude 3.5，新用户赠 0.2 额度。</td></tr>
+    <tr><td>22</td><td>4Z API 中转站</td><td><a href="https://zzzzapi.com" target="_blank">https://4zapi.com</a></td><td>🔓✌💪🎉🚀</td><td>支持 GPT-4o、Claude 3.5，新用户赠 0.2 额度。</td></tr>
     <tr><td>23</td><td>简易API中转站</td><td><a href="https://jeniya.top" target="_blank">https://jeniya.top</a></td><td>🔓✌💪🎉🚀</td><td>聚合多模型，国内直连无限制，注册送 100 元测试额度。</td></tr>
     <tr><td>24</td><td>CloseAI</td><td><a href="https://closeai-asia.com" target="_blank">https://closeai-asia.com</a></td><td>💰✌💪🎉🚀</td><td>企业级代理，支持 GPT-4o、Claude 3.5，提供中文技术支持。</td></tr>
     <tr><td>25</td><td>云鲸AI</td><td><a href="https://api.atalk-ai.com" target="_blank">https://api.atalk-ai.com</a></td><td>🔓✌💪🎉🚀</td><td>聚合 ChatGPT、Claude、文心一言，注册赠 5 元体验券。</td></tr>
