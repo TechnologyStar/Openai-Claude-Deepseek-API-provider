@@ -68,7 +68,7 @@
 | ---- | -------------------------------- |
 | 🏷️   | 一元一刀（计费接近 1 元 / 1 美刀） |
 | 😆   | 可每日签到领余额 / 任务送代币      |
-| ✉️   | 含有邀请码 / 邀请奖励（本表中不超过 3 个站点打此标） |
+| ✉️   | 含有邀请码 / 邀请奖励（本表中不超过 5 个站点打此标，在一定情况下，我们可以保证这些站点的可信度及可用性） |
 
 ### 🌐 网络与合规
 
@@ -150,7 +150,7 @@
 
 </details>
 
-
+## 正文
 
 <table class="api-table">
   <thead>
@@ -164,7 +164,7 @@
   </thead>
   <tbody>
     <tr><td>1</td><td>chat01（推荐，含邀请码）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai</a></td><td>🏓🎖️🔓✌💰✉️</td><td>提供 GPT-4o / o1 系列等高阶模型的聊天与 API 双用平台，注册赠送每日免费积分，可长期零成本试用。支持持续上下文、文件对话、代码执行等能力，界面轻快，延迟低，兼具稳定与性价比，适合个人和开发者作为主力 AI 工具。</td></tr>
-    <tr><td>2</td><td>硅基流动（企业级）</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓🎉🚀🚩✔</td><td>企业级 AI 模型推理平台，基于国产算力生态，提供千亿级模型推理、向量检索、Embedding、多模态等能力。支持企业账号体系、监控、计费、权限隔离等，适合对稳定性、数据安全和合规要求较高的商业项目。注册即送体验额度。</td></tr>
+    <tr><td>2</td><td>硅基流动（企业级）</td><td><a href="https://cloud.siliconflow.cn/i/ZKV30bdG" target="_blank">https://cloud.siliconflow.cn</a></td><td>🔓🎉🚀🚩✔</td><td>企业级 AI 模型推理平台，提供千亿级模型推理、向量检索、Embedding、多模态等能力。</td></tr>
     <tr><td>3</td><td>zenmux（推荐，含免费 gemini3 及画图）</td><td><a href="https://zenmux.ai/invite/U1QU1H" target="_blank">https://zenmux.ai</a></td><td>🎖️🔓✌💰🚀</td><td>多模型聚合服务，提供免费 Gemini 3 Pro、图像生成与各类文本模型。平台支持“模型赔付”机制，若出现严重幻觉可获得补偿，是少数支持“模型 SLA”的平台之一。充值为官方原价模式，适合追求高模型质量与稳定性的用户。</td></tr>
     <tr><td>4</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉💰</td><td>高并发聚合 API，提供 Claude、Grok、OpenAI、Google AI 等主流模型，覆盖聊天、推理、代码、搜索等多类型任务。新用户享有体验额度，价格透明且稳定性较高，并支持区域路由、密钥管理、用量统计，适合多场景开发者应用。</td></tr>
     <tr><td>5</td><td>OAIPro</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>以接近官方的费率和稳定性提供 OpenAI 与 Claude 的标准兼容 API。主打“官方直连体验”与高可用性，延迟较低，适合生产环境调用。支持 token 管理、审计与用量控制，适合希望在国内获得高品质 OpenAI 接入的用户。</td></tr>
