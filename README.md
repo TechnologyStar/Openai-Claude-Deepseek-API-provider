@@ -254,6 +254,15 @@
     <tr><td>89</td><td>Uucode</td><td><a href="https://www.uucode.org" target="_blank">https://www.uucode.org</a></td><td>🍹🏷️💰🎉✨💪</td><td>提供 Claude Code / Codex 专用 BASE_URL，含活动与优惠，适合预算敏感用户。</td></tr>
     <tr><td>90</td><td>AnyRouter</td><td><a href="https://anyrouter.top" target="_blank">https://anyrouter.top</a></td><td>🍹🏷️🎉✨✌</td><td>Claude Code 中转方案之一，曾提供一次性优惠额度，适合轻量开发者。</td></tr>
     <tr><td>91</td><td>88code</td><td><a href="https://www.88code.org" target="_blank">https://www.88code.org</a></td><td>🍹🏷️💰🎉✨💪</td><td>“平价 Claude Code 中转站”，含免费额度与按量计费，常用于对比测试。</td></tr>
+    <tr><td>92</td><td>小爱 New API 中转站</td><td><a href="https://xiaoai.plus" target="_blank">https://xiaoai.plus</a></td><td>💰🎉✨✌💪</td><td>基于 New API 的大模型聚合中转平台，兼容 OpenAI 协议，支持 GPT、Claude、DeepSeek 等多家模型，适合各类客户端与自建应用统一接入。</td></tr>
+<tr><td>93</td><td>AiCore / XTY 接口聚合</td><td><a href="https://svip.xty.app" target="_blank">https://svip.xty.app</a></td><td>💰🎉✨✌💪</td><td>典型 One API / New API 风格控制台，支持 OpenAI、Azure 等多种上游渠道，提供 key 二次分发、分组限额与 Docker 一键部署等能力。</td></tr>
+<tr><td>94</td><td>ChatAi API 聚合站</td><td><a href="https://www.chataiapi.com" target="_blank">https://www.chataiapi.com</a></td><td>💰🎉✨✌💪</td><td>企业级大模型 API 平台，与 OpenAI 官方接口完全兼容，主打官方价格约 1 折，支持多模型按量计费与 1 对 1 技术支持。</td></tr>
+<tr><td>95</td><td>One API 自建网关（zaiwen）</td><td><a href="https://oneapi.zaiwen.top" target="_blank">https://oneapi.zaiwen.top</a></td><td>💰🎉✨✌💪</td><td>面向自建用户的 One API 网关，兼容 OpenAI 协议，可挂接多路上游渠道，集中管理模型路由、令牌限额与调用日志，适合自用或小规模分发。</td></tr>
+<tr><td>96</td><td>钱多多 API 聚合平台</td><td><a href="https://api.ifopen.ai" target="_blank">https://api.ifopen.ai</a></td><td>💰🎉✨✌💪</td><td>以 New API 面板为核心的多模型中转站，支持 GPT、Claude、Gemini、DeepSeek 等海外模型，提供令牌分组倍率和 US 等多地域接入节点。</td></tr>
+<tr><td>97</td><td>Shell API / DPAPI 聚合网关</td><td><a href="https://dpapi.cn" target="_blank">https://dpapi.cn</a></td><td>💰🎉✨✌💪</td><td>品牌名为 Shell API 的多模型 API 平台，主打“让 AI 技术触手可及”，支持多家主流大模型统一接入，并提供一站式控制台与计费管理。</td></tr>
+<tr><td>98</td><td>LittleWheat OpenAI 中转站</td><td><a href="https://chatapi.littlewheat.com" target="_blank">https://chatapi.littlewheat.com</a></td><td>💰🎉✨✌💪</td><td>以“OpenAI 余额查询 + 中转接口”闻名，提供兼容 OpenAI 的代理地址，常用于 ChatBox、Cherry Studio 等客户端直接替换 Base URL 使用。</td></tr>
+<tr><td>99</td><td>VimsAI API 聚合平台</td><td><a href="https://www.vimsai.com" target="_blank">https://www.vimsai.com</a></td><td>💰🎉✨✌💪</td><td>兼容 OpenAI 标准的全球 AI 模型接入平台，一站汇聚 DeepSeek、通义千问、腾讯混元等 900+ 模型，支持按量计费、令牌分组与多节点高可用接入。</td></tr>
+
   </tbody>
 </table>
 
