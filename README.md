@@ -26,7 +26,9 @@
 >   - 遵守 [OpenAI 使用条款](https://openai.com/policies/terms-of-use)
 >   - 遵守 [《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)，**请勿对中国公众提供未经备案的生成式 AI 服务**。
 >
-> 🏠 官网导航页：**[OpenAI / Claude / DeepSeek API Provider](https://d706445b-7658-4708-bb08-bac6c5a775ad-00-2z2hsdckl4fie.riker.replit.dev/)**
+> 🏠 官网导航页：将于近期通过leaflow搭建
+> 
+> 非常感谢 leaflow 提供服务支持！  
 
 ---
 
@@ -318,6 +320,11 @@
 
 非常感谢 chat01 提供服务支持！  
 [访问 chat01 并使用优惠码](https://chat01.ai/?ref=j45ikbTa)
+
+非常感谢 leaflow 提供服务支持！  
+[访问 leaflow ](https://leaflow.net/)
+
+
 
 [![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
 ---
