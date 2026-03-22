@@ -158,10 +158,10 @@
 <thead><tr><th>序号</th><th>网站</th><th>链接</th><th>标签</th><th>备注</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>OpenRouter（优质）</td><td><a href="https://openrouter.ai" target="_blank">https://openrouter.ai</a></td><td>🔓✌💪🎉🚀</td><td>支持 293 个模型，提供免费额度，目前最正规的第三方中转，还部分开源免费模型</td></tr>
-<tr><td>2</td><td>zenmux（推荐；官转）</td><td><a href="https://zenmux.ai" target="_blank">https://zenmux.ai/invite/U1QU1H</a></td><td>🎖️🔓✌💰🚀</td><td>多模型聚合服务，提供免费模型（速率限制较严/有免费高级模型，但随时变化）、图像生成与各类文本模型，平台支持"模型赔付"机制，官转渠道，不掺水</td></tr>
+<tr><td>2</td><td>zenmux（推荐；官转）</td><td><a href="https://zenmux.ai/invite/U1QU1H" target="_blank">https://zenmux.ai</a></td><td>🎖️🔓✌💰🚀</td><td>多模型聚合服务，提供免费模型（速率限制较严/有免费高级模型，但随时变化）、图像生成与各类文本模型，平台支持"模型赔付"机制，官转渠道，不掺水</td></tr>
 <tr><td>3</td><td>OAIPro（优质）</td><td><a href="https://api.oaipro.com" target="_blank">https://api.oaipro.com</a></td><td>💰✌💪</td><td>以接近官方的费率和稳定性提供 OpenAI 与 Claude 的标准兼容 API，官转，原价充值，模型不掺水</td></tr>
 <tr><td>4</td><td>chat01（推荐，对话+api）</td><td><a href="https://chat01.ai/?ref=j45ikbTa" target="_blank">https://chat01.ai/?ref=j45ikbTa</a></td><td>🏓🎖️🔓✌💰✉️</td><td>提供 GPT-5、pro系列等高阶模型的聊天与 API 双用平台，注册赠送每日2免费积分，可长期零成本试用，按次计费，官网版本，可联网搜索，工具调用，不支持高并发</td></tr>
-<tr><td>5</td><td>星辰AI(推荐)</td><td><a href="https://ai.centos.hk" target="_blank">https://ai.centos.hk/register?aff=s0E4</a></td><td></td><td>支持claudecode,codex，多渠道支持，注册赠送500wtoken（codex）</td></tr>
+<tr><td>5</td><td>星辰AI(推荐)</td><td><a href="https://ai.centos.hk/register?aff=s0E4" target="_blank">https://ai.centos.hk</a></td><td></td><td>支持claudecode,codex，多渠道支持，注册赠送500wtoken（codex）</td></tr>
 <tr><td>6</td><td>Portunex（优质）</td><td><a href="https://portunex.gewulabs.group/" target="_blank">https://portunex.gewulabs.group/</a></td><td></td><td>claudecode官逆max,价格极低，疑似目前全网最低价（官逆渠道），真实性请自行辨别</td></tr>
 <tr><td>7</td><td>PoloAPI</td><td><a href="https://poloai.top" target="_blank">https://poloai.top</a></td><td>🔓💪✌🎉💰</td><td>高并发聚合 API，提供 Claude</td></tr>
 <tr><td>8</td><td>VoAPI</td><td><a href="https://demo.voapi.top" target="_blank">https://demo.voapi.top</a></td><td>🆓😆💪✌</td><td>公益性质平台，免费开放模型 API，额度每日清零。</td></tr>
